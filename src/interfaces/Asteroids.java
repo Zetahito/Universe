@@ -1,5 +1,7 @@
 package interfaces;
 
-public interface Asteroids extends CelestialBody {
+import asteroids.Materials;
 
+public interface Asteroids extends CelestialBody {
+    Materials[] madeOf = {};
 }
