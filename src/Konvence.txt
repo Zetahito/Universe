@@ -1,0 +1,8 @@
+Konvence Dokumentačních komentářů
+<h1>Název třídy</h1>
+<h2>Název metod, konstruktoru, getterů a setterů</h2>
+<h3>Účel proměnné</h3>
+<u>Důležitost</u>
+@author Jakub Štych
+@version X.Y.2023
+@see

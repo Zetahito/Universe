@@ -1,7 +1,5 @@
 package universe;
 
-import universe.interfaces.Existable;
-
-public abstract class Universe implements Existable {
+public abstract class Universe {
     boolean existInUniverse = true;
 }

@@ -1,5 +1,5 @@
 package keskus;
 
-public class SystemBoletus extends System {
+public class SystemBoletus extends StarSystem {
 
 }
