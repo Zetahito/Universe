@@ -3,9 +3,10 @@ package universe.celestial_body.galaxies;
 import universe.celestial_body.CelestialBody;
 
 /**
- * <h1>Abstraktní galaxie</h1>
- * Dědí od ní všechny typy galaxií.
- * Je potomkem Vesmírného tělesa.
+ * <h1>Galaxie</h1>
+ * Gravitačně vázaný systém hvězd, mezihvězdné hmoty, kosmického prachu a temné hmoty.
+ * Drží pospolu působením gravitačních sil.
+ * Jednotlivé komponenty obíhají kolem společného středu.
  * @author Jakub Štych
  * @version 6.4.2023
  */
