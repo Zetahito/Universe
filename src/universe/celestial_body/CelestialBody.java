@@ -3,25 +3,111 @@ package universe.celestial_body;
 import universe.Universe;
 import universe.interfaces.Formable;
 
+/**
+ * <h1>Astronomický objekt</h1>
+ * Fyzická entita existující ve vesmíru.
+ * @author Jakub Štych
+ * @version 7.4.2023
+ */
 public abstract class CelestialBody extends Universe implements Formable {
-    long width = 0L;
-    long height = 0L;
-    long volume = 0L;
 
     /**
-     * <h3>Zformování</h3>
+     * <h3>Šířka astronomického objektu</h3>
+     * Jeden z rozměrů.
+     * @see #getWidth() Getter
+     * @see #setWidth(long) Setter
+     */
+    private long width;
+
+    /**
+     * <h3>Výška astronomického objektu</h3>
+     * Jeden z rozměrů.
+     * @see #getHeight() Getter
+     * @see #setHeight(long) Setter
+     */
+    private long height;
+
+    /**
+     * <h3>Hloubka astronomického objektu</h3>
+     * Jeden z rozměrů.
+     * @see #getVolume() Getter
+     * @see #setVolume(long) Setter
+     */
+    private long volume;
+
+    /**
+     * <h3>Zformování astronomického objektu</h3>
      * <ul>
-     *     <li><b>true</b> - Objekt zformován</li>
-     *     <li><b>false</b> - Objekt nezformován</li>
-     * </ul>
-     * @see #isFormed() Getter
-     * @see #setFormed(boolean) Setter
+     *    <li><b>true</b> - Astronomický objekt <u>byl</u> zformován</li>
+     *    <li><b>false</b> - Astronomický objekt <u>nebyl</u> zformován</li>
+     *</ul>
+     * @see #form()
      */
     private boolean formed = false;
 
     /**
-     * <h2>Getter vesmírného objektu</h2>
-     * @return Zformování
+     * <h2>Getter astronomického objektu</h2>
+     * @return Šířka astronomického objektu
+     * @see #width
+     */
+    @Override
+    public double getWidth() {
+        return width;
+    }
+
+    /**
+     * <h2>Setter astronomického objektu</h2>
+     * @param width Šířka astronomického objektu
+     * @see #width
+     */
+    @Override
+    public void setWidth(long width) {
+        this.width = width;
+    }
+
+    /**
+     * <h2>Getter astronomického objektu</h2>
+     * @return Výška astronomického objektu
+     * @see #height
+     */
+    @Override
+    public double getHeight() {
+        return height;
+    }
+
+    /**
+     * <h2>Setter astronomického objektu</h2>
+     * @param height Výška astronomického objektu
+     * @see #height
+     */
+    @Override
+    public void setHeight(long height) {
+        this.height = height;
+    }
+
+    /**
+     * <h2>Getter astronomického objektu</h2>
+     * @return Hloubka astronomického objektu
+     * @see #volume
+     */
+    @Override
+    public double getVolume() {
+        return volume;
+    }
+
+    /**
+     * <h2>Setter astronomického objektu</h2>
+     * @param volume Hloubka astronomického objektu
+     * @see #volume
+     */
+    @Override
+    public void setVolume(long volume) {
+        this.volume = volume;
+    }
+
+    /**
+     * <h2>Getter astronomického objektu</h2>
+     * @return Zformování astronomického objektu
      * @see #formed
      */
     @Override
@@ -30,19 +116,18 @@ public abstract class CelestialBody extends Universe implements Formable {
     }
 
     /**
-     * <h2>Setter vesmírného objektu</h2>
-     * @param formed Zformování
+     * <h2>Setter astronomického objektu</h2>
+     * @param formed Zformování astronomického objektu
      * @see #formed
      */
+    @Override
     public void setFormed(boolean formed) {
         this.formed = formed;
     }
 
     /**
      * <h2>Zformuje vesmírný objekt</h2>
-     * Nastaví <i>formed</i> na <i>true</i>
      * @see #formed
-     * @see #setFormed(boolean)
      */
     @Override
     public void form() {

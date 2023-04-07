@@ -2,8 +2,8 @@ package universe.interfaces;
 
 /**
  * <h1>Rozhraní existujících objektů</h1>
- * Implementují jej všechny existující objekty
- * Jedno z klíčových rozhraní
+ * Implementují jej všechny existující objekty.
+ * Jedno z klíčových rozhraní.
  * @author Jakub Štych
  * @version 6.4.2023
  */
