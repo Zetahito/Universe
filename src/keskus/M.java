@@ -13,6 +13,7 @@ public class M {
         Star bol = new TypeG();
         bol.setSize(1_392_700L);
         bol.setTemperature(5_772);
+        System.out.println(bol.getClass());
 
         Planet boletus = new Ecumenopolis();
 
