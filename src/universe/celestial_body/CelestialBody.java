@@ -36,6 +36,13 @@ public abstract class CelestialBody extends Universe implements Formable {
     private long volume;
 
     /**
+     * <h3>Váha astronomického objektu</h3>
+     * @see #getWeight() Getter
+     * @see #setWeight(long) Setter
+     */
+    private long weight;
+
+    /**
      * <h3>Zformování astronomického objektu</h3>
      * <ul>
      *    <li><b>true</b> - Astronomický objekt <u>byl</u> zformován</li>
@@ -51,7 +58,7 @@ public abstract class CelestialBody extends Universe implements Formable {
      * @see #width
      */
     @Override
-    public double getWidth() {
+    public long getWidth() {
         return width;
     }
 
@@ -71,7 +78,7 @@ public abstract class CelestialBody extends Universe implements Formable {
      * @see #height
      */
     @Override
-    public double getHeight() {
+    public long getHeight() {
         return height;
     }
 
@@ -91,7 +98,7 @@ public abstract class CelestialBody extends Universe implements Formable {
      * @see #volume
      */
     @Override
-    public double getVolume() {
+    public long getVolume() {
         return volume;
     }
 
@@ -103,6 +110,26 @@ public abstract class CelestialBody extends Universe implements Formable {
     @Override
     public void setVolume(long volume) {
         this.volume = volume;
+    }
+
+    /**
+     * <h2>Getter astronomického objektu</h2>
+     * @return Váha astronomického objektu
+     * @see #weight
+     */
+    @Override
+    public long getWeight() {
+        return weight;
+    }
+
+    /**
+     * <h2>Setter astronomického objektu</h2>
+     * @param weight Váha astronomického objektu
+     * @see #weight
+     */
+    @Override
+    public void setWeight(long weight) {
+        this.weight = weight;
     }
 
     /**

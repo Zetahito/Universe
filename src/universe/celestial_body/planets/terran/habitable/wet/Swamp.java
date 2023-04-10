@@ -12,19 +12,4 @@ public class Swamp extends Wet {
     public KardashevLevel civilisationLevel() {
         return null;
     }
-
-    @Override
-    public void existInRealUniverse() {
-
-    }
-
-    @Override
-    public void form() {
-
-    }
-
-    @Override
-    public boolean isFormed() {
-        return false;
-    }
 }

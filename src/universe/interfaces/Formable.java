@@ -13,7 +13,7 @@ public interface Formable {
      * <h2>Getter</h2>
      * @return Šířka
      */
-    double getWidth();
+    long getWidth();
 
     /**
      * <h2>Setter</h2>
@@ -25,7 +25,7 @@ public interface Formable {
      * <h2>Getter</h2>
      * @return Výška
      */
-    double getHeight();
+    long getHeight();
 
     /**
      * <h2>Setter</h2>
@@ -37,13 +37,25 @@ public interface Formable {
      * <h2>Getter</h2>
      * @return Hloubka
      */
-    double getVolume();
+    long getVolume();
 
     /**
      * <h2>Setter</h2>
      * @param volume Hloubka
      */
     void setVolume(long volume);
+
+    /**
+     * <h2>Getter</h2>
+     * @return Váha
+     */
+    long getWeight();
+
+    /**
+     * <h2>Setter</h2>
+     * @param weight Váha
+     */
+    void setWeight(long weight);
 
     /**
      * <h2>Getter</h2>
