@@ -35,6 +35,30 @@ public abstract class Protocol {
     private String description;
 
     /**
+     * <h3>Kolekce zbývajících úkolů protokolu</h3>
+     * Úkoly, které nebyly dokončeny, ale ještě budou.
+     * @see #getRemainingTask(int) Getter
+     * @see #fillRemainingTasks(ArrayList) Setter
+     */
+    private ArrayList<Task> remainingTasks;
+
+    /**
+     * <h3>Kolekce dokončených úkolů protokolu</h3>
+     * Splněné úkoly, které dosáhly svého cíle.
+     * @see #getCompletedTask(int) Getter
+     * @see #completeTask(Task, int) Setter
+     */
+    private ArrayList<Task> completedTasks;
+
+    /**
+     * <h3>Kolekce opuštěných úkolů protokolu</h3>
+     * Úkoly, které nebyly dokončeny a nikdy už nebudou.
+     * @see #getAbandonedTask(int) Getter
+     * @see #abandonTask(Task, int) Setter
+     */
+    private ArrayList<Task> abandonedTasks;
+
+    /**
      * <h2>Getter protokolu</h2>
      * @return Číslo protokolu
      * @see #number
@@ -88,64 +112,81 @@ public abstract class Protocol {
         this.description = description;
     }
 
-
-
-
-
-
-
-
-
-
-
-
     /**
-     * <h3>Kolekce zbývajících úkolů</h3>
+     * <h2>Getter protokolu</h2>
+     * @param position pozice zbývajícího úkolu
+     * @return Zbývající úkol
+     * @see #remainingTasks
      */
-    private ArrayList<Task> remainingTasks;
+    public Task getRemainingTask(int position) {
+        return remainingTasks.get(position);
+    }
 
     /**
-     * <h3>Kolekce dokončených úkolů</h3>
-     */
-    private ArrayList<Task> completedTasks;
-
-    /**
-     * <h3>Kolekce opuštěných úkolů</h3>
-     */
-    private ArrayList<Task> abandonedTasks;
-
-    /**
-     *
-     * @param remainingTasks
+     * <h2>Setter protokolu</h2>
+     * @param remainingTasks Kolekce zbývajících úkolů
+     * @see #remainingTasks
      */
     public void fillRemainingTasks(ArrayList<Task> remainingTasks) {
         this.remainingTasks = remainingTasks;
     }
 
+    /**
+     * <h2>Getter protokolu</h2>
+     * @param position pozice dokončeného úkolu
+     * @return Dokončený úkol
+     * @see #completedTasks
+     */
+    public Task getCompletedTask(int position) {
+        return completedTasks.get(position);
+    }
+
+    /**
+     * <h2>Setter protokolu</h2>
+     * Odstraní úkol z kolekce zbývajících úkolů a přidá jej do kolekce dokončených úkolů.
+     * @param task Úkol, který byl dokončen
+     * @param position Pozice úkolu v kolekci zbývajících úkolů
+     * @see #remainingTasks
+     * @see #completedTasks
+     */
     public void completeTask(Task task, int position) {
         remainingTasks.remove(position);
         completedTasks.add(task);
     }
 
+    /**
+     * <h2>Getter protokolu</h2>
+     * @param position Pozice opuštěného úkolu
+     * @return Opuštěný úkol
+     * @see #abandonedTasks
+     */
+    public Task getAbandonedTask(int position) {
+        return abandonedTasks.get(position);
+    }
+
+    /**
+     * <h2>Setter protokolu</h2>
+     * Odstraní úkol z kolekce zbývajících úkolů a přidá jej do kolekce opuštěných úkolů.
+     * @param task Úkol, který nebyl dokončen
+     * @param position Pozice úkolu v kolekci zbývajících úkolů
+     * @see #remainingTasks
+     * @see #abandonedTasks
+     */
     public void abandonTask(Task task, int position) {
         remainingTasks.remove(position);
         abandonedTasks.add(task);
     }
 
+    /**
+     * <h2>Ověří přítomnost zbývajících úkolů</h2>
+     * <ul>
+     *    <li><b>true</b> - Kolekce zbývajících úkolů <u>je</u> prázdná</li>
+     *    <li><b>false</b> - Kolekce zbývajících úkolů <u>není</u> prázdná</li>
+     *</ul>
+     * @return Práznost kolekce zbývajících úkolů
+     * @see #remainingTasks
+     */
     public boolean allTasksCompleted() {
         return remainingTasks.isEmpty();
     }
-
-    public Task getRemainingTask(int position) {
-        return remainingTasks.get(position);
-    }
-
-    public Task getCompletedTask(int position) {
-        return completedTasks.get(position);
-    }
-
-    public Task getAbandonedTask(int position) {
-        return abandonedTasks.get(position);
-    }
-
 }

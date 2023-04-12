@@ -14,13 +14,12 @@ public abstract class Galaxy extends CelestialBody {
 
     /**
      * <h3>Typ galaxie</h3>
-     * <ul>
-     *     <li><b>Barred Spiral</b> - Spirální galaxie s příčkou</li>
-     *     <li><b>Elliptical</b> - Eliptická galaxie</li>
-     *     <li><b>Irregular</b> - Nepravidelná galaxie</li>
-     *     <li><b>Lenticular</b> - Čočková galaxie</li>
-     *     <li><b>Spiral</b> - Spirální galaxie bez příčky</li>
-     * </ul>
+     * @see BarredSpiral Spirální galaxie s příčkou
+     * @see Elliptical Eliptická galaxie
+     * @see Irregular Nepravidelná galaxie
+     * @see Lenticular Čočková galaxie
+     * @see Ring Prstencová galaxie
+     * @see Spiral Spirální galaxie bez příčky
      * @see #getType() Getter
      * @see #setType(String) Setter
      */

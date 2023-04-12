@@ -9,7 +9,7 @@ package universe.celestial_body.irregular;
  * @author Jakub Štych
  * @version 10.4.2023
  */
-public class Comet extends Irregual {
+public class Comet extends Irregular {
     private long comaDiameter;
     private long tailLength;
 }

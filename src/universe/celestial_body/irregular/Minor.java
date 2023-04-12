@@ -7,6 +7,6 @@ package universe.celestial_body.irregular;
  * @author Jakub Štych
  * @version 10.4.2023
  */
-public class Asteroid extends Irregual {
+public class Minor extends Irregular {
 
 }
