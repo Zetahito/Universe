@@ -9,4 +9,10 @@ package universe.celestial_body.irregular;
  */
 public class Minor extends Irregular {
 
+    /**
+     * <h2>Konstruktor planetky</h2>
+     */
+    Minor() {
+        setType("Minor");
+    }
 }
