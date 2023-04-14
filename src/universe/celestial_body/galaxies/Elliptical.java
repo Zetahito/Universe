@@ -17,5 +17,6 @@ public class Elliptical extends Galaxy {
      */
     public Elliptical() {
         setType("Elliptical");
+        setFormed(true);
     }
 }

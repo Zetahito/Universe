@@ -16,5 +16,6 @@ public class Lenticular extends Galaxy {
      */
     public Lenticular() {
         setType("Lenticular");
+        setFormed(true);
     }
 }

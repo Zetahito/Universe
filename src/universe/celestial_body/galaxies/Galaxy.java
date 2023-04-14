@@ -2,6 +2,9 @@ package universe.celestial_body.galaxies;
 
 import universe.celestial_body.CelestialBody;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * <h1>Galaxie</h1>
  * Gravitačně vázaný systém hvězd, mezihvězdné hmoty, kosmického prachu a temné hmoty.
@@ -37,11 +40,20 @@ public abstract class Galaxy extends CelestialBody {
      * <h3>Jména hvězdných systémů</h3>
      * Ve většině případů neobsahuje jména všech hvězd.
      * Pouze důležité a zajímavé soustavy.
-     * @see #getNamesOfStar() Getter
-     * @see #setNamesOfStar(String[]) Setter
+     * @see #getNameOfStar() Getter
+     * @see #setNameOfStar(String[]) Setter
      */
     @Deprecated
-    private String[] namesOfStar;
+    private String[] namesOfStar_deprecated;
+
+    /**
+     * <h3>Kolekce jmen hvězd galaxie</h3>
+     * Ve většině případů neobsahuje jména všech hvězd.
+     * Pouze důležité a zajímavé soustavy.
+     * @see #getNameOfStar(int) Getter
+     * @see #addNameOfStar(String) Setter
+     */
+    private List<String> nameOfStar = new ArrayList<>();
 
     /**
      * <h3>Počet civilizací v galaxii</h3>
@@ -59,7 +71,16 @@ public abstract class Galaxy extends CelestialBody {
      * @see #setNamesOfCivilisations(String[]) Setter
      */
     @Deprecated
-    private String[] namesOfCivilisations;
+    private String[] namesOfCivilisations_deprecated;
+
+    /**
+     * <h3>Kolekce jmen civilizací galaxie</h3>
+     * Obsahuje jména všech civilizací.
+     * Primitivní civilizace nikoliv.
+     * @see #getNameOfCivilisation(int) Getter
+     * @see #addNameOfCivilisation(String) Setter
+     */
+    private List<String> namesOfCivilisations = new ArrayList<>();
 
     /**
      * <h2>Getter galaxie</h2>
@@ -98,23 +119,48 @@ public abstract class Galaxy extends CelestialBody {
     }
 
     /**
-     * <h2>Getter galaxie</h2>
+     * <h2><s>Getter galaxie</s></h2>
+     * <b>ZASTARALÁ METODA</b>
      * @return Jména hvězdných systémů
-     * @see #namesOfStar
+     * @see #namesOfStar_deprecated
+     * @see #nameOfStar
      */
     @Deprecated
-    public String[] getNamesOfStar() {
-        return namesOfStar;
+    public String[] getNameOfStar() {
+        return namesOfStar_deprecated;
+    }
+
+    /**
+     * <h2><s>Setter galaxie</s></h2>
+     * <b>ZASTARALÁ METODA</b>
+     * @param nameOfStar Jména hvězdných systémů
+     * @see #namesOfStar_deprecated
+     * @see #nameOfStar
+     */
+    @Deprecated
+    public void setNameOfStar(String[] nameOfStar) {
+        this.namesOfStar_deprecated = nameOfStar;
+    }
+
+    /**
+     * <h2>Getter galaxie</h2>
+     * Vrátí požadovanou hvězdu.
+     * @param position Pozice hvězdy
+     * @return Jméno hvězdy
+     * @see #nameOfStar
+     */
+    public String getNameOfStar(int position) {
+        return nameOfStar.get(position);
     }
 
     /**
      * <h2>Setter galaxie</h2>
-     * @param namesOfStar Jména hvězdných systémů
-     * @see #namesOfStar
+     * Přidá hvězdu do kolekce hvězd.
+     * @param name Jméno hvězdy
+     * @see #nameOfStar
      */
-    @Deprecated
-    public void setNamesOfStar(String[] namesOfStar) {
-        this.namesOfStar = namesOfStar;
+    public void addNameOfStar(String name) {
+        nameOfStar.add(name);
     }
 
     /**
@@ -136,22 +182,47 @@ public abstract class Galaxy extends CelestialBody {
     }
 
     /**
-     * <h2>Getter galaxie</h2>
+     * <h2><s>Getter galaxie</s></h2>
+     * <b>ZASTARALÁ METODA</b>
      * @return Jména civilizací
      * @see #namesOfCivilisations
+     * @see #namesOfCivilisations_deprecated
      */
     @Deprecated
     public String[] getNamesOfCivilisations() {
-        return namesOfCivilisations;
+        return namesOfCivilisations_deprecated;
+    }
+
+    /**
+     * <h2><s>Setter galaxie</s></h2>
+     * <b>ZASTARALÁ METODA</b>
+     * @param namesOfCivilisations Jména civilizací
+     * @see #namesOfCivilisations_deprecated
+     * @see #addNameOfCivilisation(String) Náhrada za tuto metodu
+     */
+    @Deprecated
+    public void setNamesOfCivilisations(String[] namesOfCivilisations) {
+        this.namesOfCivilisations_deprecated = namesOfCivilisations;
+    }
+
+    /**
+     * <h2>Getter galaxie</h2>
+     * Vrátí požadovanou civilizaci.
+     * @param position Pozice civilizace
+     * @return Jméno civilizace
+     * @see #namesOfCivilisations
+     */
+    public String getNameOfCivilisation(int position) {
+        return namesOfCivilisations.get(position);
     }
 
     /**
      * <h2>Setter galaxie</h2>
-     * @param namesOfCivilisations Jména civilizací
+     * Přidá civilizaci do kolekce civilizací.
+     * @param name Jméno civilizace
      * @see #namesOfCivilisations
      */
-    @Deprecated
-    public void setNamesOfCivilisations(String[] namesOfCivilisations) {
-        this.namesOfCivilisations = namesOfCivilisations;
+    public void addNameOfCivilisation(String name) {
+        namesOfCivilisations.add(name);
     }
 }

@@ -31,6 +31,7 @@ public class BarredSpiral extends Galaxy {
      */
     public BarredSpiral() {
         setType("Barred Spiral");
+        setFormed(true);
     }
 
     /**

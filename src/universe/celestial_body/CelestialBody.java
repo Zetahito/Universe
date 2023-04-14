@@ -14,6 +14,7 @@ public abstract class CelestialBody extends Universe implements Formable {
     /**
      * <h3>Šířka astronomického objektu</h3>
      * Jeden z rozměrů.
+     * Udávaný ve světelných letech (1 LY = 10 000 000 000 000 km).
      * @see #getWidth() Getter
      * @see #setWidth(long) Setter
      */
@@ -22,6 +23,7 @@ public abstract class CelestialBody extends Universe implements Formable {
     /**
      * <h3>Výška astronomického objektu</h3>
      * Jeden z rozměrů.
+     * Udávaný ve světelných letech (1 LY = 10 000 000 000 000 km).
      * @see #getHeight() Getter
      * @see #setHeight(long) Setter
      */
@@ -30,6 +32,7 @@ public abstract class CelestialBody extends Universe implements Formable {
     /**
      * <h3>Hloubka astronomického objektu</h3>
      * Jeden z rozměrů.
+     * Udávaný ve světelných letech (1 LY = 10 000 000 000 000 km).
      * @see #getVolume() Getter
      * @see #setVolume(long) Setter
      */
@@ -37,6 +40,7 @@ public abstract class CelestialBody extends Universe implements Formable {
 
     /**
      * <h3>Váha astronomického objektu</h3>
+     * Udávaný ve slunečních hmotnostech (1 SM = 2 * 10 na 30)
      * @see #getWeight() Getter
      * @see #setWeight(long) Setter
      */

@@ -32,6 +32,7 @@ public class Spiral extends Galaxy {
      */
     public Spiral() {
         setType("Spiral");
+        setFormed(true);
     }
 
     /**

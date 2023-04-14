@@ -15,5 +15,6 @@ public class Irregular extends Galaxy {
      */
     public Irregular() {
         setType("Irregular");
+        setFormed(true);
     }
 }

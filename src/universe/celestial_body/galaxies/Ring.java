@@ -14,5 +14,6 @@ public class Ring extends Galaxy {
      */
     public Ring() {
         setType("Ring");
+        setFormed(true);
     }
 }
