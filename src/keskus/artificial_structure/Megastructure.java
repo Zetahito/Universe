@@ -1,4 +1,4 @@
-package universe.artificial_structure;
+package keskus.artificial_structure;
 
 import universe.Universe;
 import universe.interfaces.Buildable;

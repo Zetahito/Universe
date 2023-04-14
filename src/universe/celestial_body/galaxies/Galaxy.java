@@ -40,6 +40,7 @@ public abstract class Galaxy extends CelestialBody {
      * @see #getNamesOfStar() Getter
      * @see #setNamesOfStar(String[]) Setter
      */
+    @Deprecated
     private String[] namesOfStar;
 
     /**
@@ -57,6 +58,7 @@ public abstract class Galaxy extends CelestialBody {
      * @see #getNamesOfCivilisations() Getter
      * @see #setNamesOfCivilisations(String[]) Setter
      */
+    @Deprecated
     private String[] namesOfCivilisations;
 
     /**
@@ -100,6 +102,7 @@ public abstract class Galaxy extends CelestialBody {
      * @return Jména hvězdných systémů
      * @see #namesOfStar
      */
+    @Deprecated
     public String[] getNamesOfStar() {
         return namesOfStar;
     }
@@ -109,6 +112,7 @@ public abstract class Galaxy extends CelestialBody {
      * @param namesOfStar Jména hvězdných systémů
      * @see #namesOfStar
      */
+    @Deprecated
     public void setNamesOfStar(String[] namesOfStar) {
         this.namesOfStar = namesOfStar;
     }
@@ -136,6 +140,7 @@ public abstract class Galaxy extends CelestialBody {
      * @return Jména civilizací
      * @see #namesOfCivilisations
      */
+    @Deprecated
     public String[] getNamesOfCivilisations() {
         return namesOfCivilisations;
     }
@@ -145,6 +150,7 @@ public abstract class Galaxy extends CelestialBody {
      * @param namesOfCivilisations Jména civilizací
      * @see #namesOfCivilisations
      */
+    @Deprecated
     public void setNamesOfCivilisations(String[] namesOfCivilisations) {
         this.namesOfCivilisations = namesOfCivilisations;
     }

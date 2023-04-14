@@ -2,7 +2,7 @@ package universe.interfaces;
 
 /**
  * <h1>Rozhraní vytvořitelných objektů</h1>
- * Implementují jej všechny atronomické objekty.
+ * Implementují jej všechny astronomické objekty.
  * Jedno z klíčových rozhraní.
  * @author Jakub Štych
  * @version 7.4.2023

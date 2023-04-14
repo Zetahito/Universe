@@ -18,11 +18,11 @@ public abstract class Irregular extends CelestialBody {
 
     /**
      * <h3>Kolekce materiálů</h3>
-     * Každý materiál, který se nachází v nepravidelném tělese
+     * Každý materiál, který se nachází v nepravidelném tělese.
      * @see #getMaterial(int) Getter
      * @see #addMaterial(Materials) Setter
      */
-    private final List<Materials> materials = new ArrayList<>();
+    private List<Materials> materials = new ArrayList<>();
 
     /**
      * <h3>Typ nepravidelného tělesa</h3>
