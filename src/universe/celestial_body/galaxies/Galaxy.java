@@ -37,9 +37,11 @@ public abstract class Galaxy extends CelestialBody {
     private long numberOfStars;
 
     /**
-     * <h3>Jména hvězdných systémů</h3>
+     * <h3><s>Jména hvězdných systémů</s></h3>
+     * <p><b>ZASTARALÝ ATRIBUT</b></p>
      * Ve většině případů neobsahuje jména všech hvězd.
      * Pouze důležité a zajímavé soustavy.
+     * @since 14.4.2023
      * @see #getNameOfStar() Getter
      * @see #setNameOfStar(String[]) Setter
      */
@@ -64,9 +66,11 @@ public abstract class Galaxy extends CelestialBody {
     private long numberOfCivilisations;
 
     /**
-     * <h3>Jména civilizací</h3>
+     * <h3><s>Jména civilizací</s></h3>
+     * <p><b>ZASTARALÝ ATRIBUT</b></p>
      * Obsahuje jména všech civilizací.
      * Primitivní civilizace nikoliv.
+     * @since 14.4.2023
      * @see #getNamesOfCivilisations() Getter
      * @see #setNamesOfCivilisations(String[]) Setter
      */
@@ -122,6 +126,7 @@ public abstract class Galaxy extends CelestialBody {
      * <h2><s>Getter galaxie</s></h2>
      * <b>ZASTARALÁ METODA</b>
      * @return Jména hvězdných systémů
+     * @since 14.4.2023
      * @see #namesOfStar_deprecated
      * @see #nameOfStar
      */
@@ -134,6 +139,7 @@ public abstract class Galaxy extends CelestialBody {
      * <h2><s>Setter galaxie</s></h2>
      * <b>ZASTARALÁ METODA</b>
      * @param nameOfStar Jména hvězdných systémů
+     * @since 14.4.2023
      * @see #namesOfStar_deprecated
      * @see #nameOfStar
      */
@@ -185,6 +191,7 @@ public abstract class Galaxy extends CelestialBody {
      * <h2><s>Getter galaxie</s></h2>
      * <b>ZASTARALÁ METODA</b>
      * @return Jména civilizací
+     * @since 14.4.2023
      * @see #namesOfCivilisations
      * @see #namesOfCivilisations_deprecated
      */
@@ -197,6 +204,7 @@ public abstract class Galaxy extends CelestialBody {
      * <h2><s>Setter galaxie</s></h2>
      * <b>ZASTARALÁ METODA</b>
      * @param namesOfCivilisations Jména civilizací
+     * @since 14.4.2023
      * @see #namesOfCivilisations_deprecated
      * @see #addNameOfCivilisation(String) Náhrada za tuto metodu
      */
