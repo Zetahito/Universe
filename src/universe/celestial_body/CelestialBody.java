@@ -1,7 +1,11 @@
 package universe.celestial_body;
 
 import universe.Universe;
+import universe.enums.Materials;
 import universe.interfaces.Formable;
+import universe.interfaces.Materiable;
+
+import java.util.List;
 
 /**
  * <h1>Astronomický objekt</h1>
@@ -9,7 +13,7 @@ import universe.interfaces.Formable;
  * @author Jakub Štych
  * @version 7.4.2023
  */
-public abstract class CelestialBody extends Universe implements Formable {
+public abstract class CelestialBody extends Universe implements Formable, Materiable {
 
     /**
      * <h3>Šířka astronomického objektu</h3>
@@ -45,6 +49,13 @@ public abstract class CelestialBody extends Universe implements Formable {
      * @see #setWeight(long) Setter
      */
     private long weight;
+
+    /**
+     * <h3>Materiály astronomického objektu</h3>
+     * @see #getMaterial(int) Getter
+     * @see #addMaterial(Materials) Setter
+     */
+    private List<Materials> materials;
 
     /**
      * <h3>Zformování astronomického objektu</h3>
@@ -134,6 +145,25 @@ public abstract class CelestialBody extends Universe implements Formable {
     @Override
     public void setWeight(long weight) {
         this.weight = weight;
+    }
+
+    /**
+     * <h2>Getter astronomického objektu</h2>
+     * @param position Pozice materiálu
+     * @return Materiál
+     */
+    @Override
+    public Materials getMaterial(int position) {
+        return materials.get(position);
+    }
+
+    /**
+     * <h2>Setter astronomického objektu</h2>
+     * @param material Materiál
+     */
+    @Override
+    public void addMaterial(Materials material) {
+        materials.add(material);
     }
 
     /**
