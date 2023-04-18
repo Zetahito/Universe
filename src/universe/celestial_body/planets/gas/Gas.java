@@ -13,7 +13,7 @@ import universe.celestial_body.planets.Planet;
 public abstract class Gas extends Planet {
 
     /**
-     * <h3>Typ planety</h3>
+     * <h3>Typ plynné planety</h3>
      * @see universe.celestial_body.planets.gas.GasGiant Plynný obr
      * @see universe.celestial_body.planets.gas.HotJupiter Horký Jupiter
      * @see universe.celestial_body.planets.gas.IceGiant Ledový obr
