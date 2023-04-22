@@ -9,11 +9,6 @@ import universe.celestial_body.planets.Planet;
  * Na povrchu plášť přechází v kůru.
  * Topologii povrchu tvoří především krátery, kaňony, hory a sopky.
  * Mohou, ale nemusí mít i plynnou atmosféru.
- * Obyvatelné planety dědí od této třídy a dělí se na 4 typy:
- * @see universe.celestial_body.planets.terran.habitable.dry.Dry Suchá planeta
- * @see universe.celestial_body.planets.terran.habitable.wet.Wet Vlhká planeta
- * @see universe.celestial_body.planets.terran.habitable.frozen.Frozen Zmrzlá planeta
- * @see universe.celestial_body.planets.terran.habitable.special.Special Speciální planeta
  * @author Jakub Štych
  * @version 18.4.2023
  */
