@@ -16,13 +16,38 @@ public abstract class Dry extends HabitablePlanet {
 
     /**
      * <h3>Typ suché planety</h3>
-     * //TODO
+     * @see Aquifer Vodonosná planeta
+     * @see Arid Vyprahlá planeta
+     * @see Badlands Badlands
+     * @see Coastal Pobřežní planeta
+     * @see Coral Korálová planeta
+     * @see Desert Pouštní planeta
+     * @see Dune Dunová planeta
+     * @see Mediterranean Středozemní planeta
+     * @see Mesa Planeta stolových hor
+     * @see Oasis Oázová planeta
+     * @see Outback Vnitrozemní planeta
+     * @see Prairie Prériová planeta
+     * @see Primal Mladá planeta
+     * @see Salt Slaná planeta
+     * @see Savanna Savanová planeta
+     * @see SemiArid Polovyprahlá planeta
+     * @see Sinkhole Závrtová planeta
+     * @see Steppe Stepní planeta
+     * @see Supercontinent Superkontinentální planeta
+     * @see Veld Veldová planeta
+     * @see #getDryPlanetType() Getter
+     * @see #setDryPlanetType(String) Setter
      */
     private String dryPlanetType;
 
     /**
      * <h3>Kolekce planetárních rysů suché planety</h3>
      * @see PlanetaryFeature Možné rysy suché planety
+     * @see #getDryPlanetFeature() Getter kolekce rysů suché planety
+     * @see #getSelectedPlanetaryFeature(int) Getter vybraného planetárního rysu suché planety
+     * @see #setDryPlanetFeature(List) Setter kolekce rysů suché planety
+     * @see #setSelectedPlanetaryFeature(PlanetaryFeature) Setter vybraného planetárního rysu suché planety
      */
     private List<PlanetaryFeature> dryPlanetFeature = new ArrayList<>();
 

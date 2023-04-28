@@ -8,7 +8,6 @@ import universe.enums.PlanetaryFeature;
  * I přes vzácné srážky má planeta bohatou hydrosféru pod povrchem a v lagunách na povrchu.
  * Život se drží v okolí těchto lagun a podzemních řek.
  * Zbytek planety pokrývá suchý a horký písek.
- * Planeta se může využívat na farmaření, výzkum i cestovní ruch.
  * @author Jakub Štych
  * @version 22.4.2023
  */
