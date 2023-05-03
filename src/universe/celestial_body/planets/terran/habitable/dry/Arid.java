@@ -15,7 +15,7 @@ public class Arid extends Dry {
     /**
      * <h2>Konstruktor vyprahlé planety</h2>
      */
-    Arid() {
+    public Arid() {
         setType("Terrestial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Arid");

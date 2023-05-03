@@ -16,7 +16,29 @@ public abstract class Frozen extends HabitablePlanet {
 
     /**
      * <h3>Typ studené planety</h3>
-     * //TODO
+     * @see Aeolian Větrná planeta
+     * @see Alpine Vysokohorská planeta
+     * @see Antarctic Antarktická planeta
+     * @see Arctic Arktická planeta
+     * @see Basalt Bazaltová planeta
+     * @see Bog Bažinatá planeta
+     * @see Boreal Subpolární planeta
+     * @see Cryoflora Kryoflórová planeta
+     * @see DuneForest Planeta dunových lesů
+     * @see Frigid Mrazivá planeta
+     * @see Glacial Glaciální planeta
+     * @see Glaciovolcanic Planeta vulkanických ledovců
+     * @see Highland Vysočinská planeta
+     * @see Iceberg Ledovcová planeta
+     * @see Lanthanide Lanthanoidská planeta
+     * @see Lichen Lišejníková planeta
+     * @see Mud Blátivá planeta
+     * @see Mycelium Podhoubní planeta
+     * @see Snow Sněžná planeta
+     * @see Storm Bouřlivá planeta
+     * @see Tundra Tundrová planeta
+     * @see #getFrozenPlanetType() Getter
+     * @see #setFrozenPlanetType(String) Setter
      */
     private String frozenPlanetType;
 

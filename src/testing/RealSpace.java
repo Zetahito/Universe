@@ -4,7 +4,8 @@ import universe.celestial_body.galaxies.Galaxy;
 import universe.celestial_body.galaxies.Irregular;
 import universe.celestial_body.galaxies.Spiral;
 
-public class Testing {
+public class RealSpace {
+
     public static void main(String[] args) {
 
         // ---===--- MLÉČNÁ DRÁHA ---===--- //
@@ -52,5 +53,16 @@ public class Testing {
         smallMagellanicCloud.setWeight(6_500_000_000_000_000L);
         smallMagellanicCloud.setNumberOfCivilisations(0L);
         smallMagellanicCloud.setNumberOfStars(3_000_000_000L);
+
+        // ---===--- Galaxie v Trojúhleníku ---===--- //
+
+        Galaxy triangulum = new Spiral();
+
+        triangulum.setWidth(61_100L);
+        triangulum.setHeight(52_000L);
+        triangulum.setVolume(900L);
+        triangulum.setWeight(50_000_000_000L);
+        triangulum.setNumberOfCivilisations(0L);
+        triangulum.setNumberOfStars(40_000_000_000L);
     }
 }

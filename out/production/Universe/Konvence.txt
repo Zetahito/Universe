@@ -6,3 +6,7 @@ Konvence Dokumentačních komentářů
 @author Jakub Štych
 @version X.Y.2023
 @see
+<ul>
+    <li><b>true</b> - Astronomický objekt <u>byl</u> zformován</li>
+    <li><b>false</b> - Astronomický objekt <u>nebyl</u> zformován</li>
+</ul>

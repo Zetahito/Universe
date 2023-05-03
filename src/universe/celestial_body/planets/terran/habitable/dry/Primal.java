@@ -25,7 +25,7 @@ public class Primal extends Dry {
 
         setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
         setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.VULCANO);
+        setSelectedPlanetaryFeature(PlanetaryFeature.VOLCANO);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAVA_LAKE);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAVA_RIVER);

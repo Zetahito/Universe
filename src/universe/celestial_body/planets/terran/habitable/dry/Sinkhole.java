@@ -23,7 +23,8 @@ public class Sinkhole extends Dry {
 
         setHabitability(90);
 
+        setSelectedPlanetaryFeature(PlanetaryFeature.SINKHOLE);
         setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLANES);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SUBTERRANEAL_OCEAN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SUBTERRANEAN_OCEAN);
     }
 }

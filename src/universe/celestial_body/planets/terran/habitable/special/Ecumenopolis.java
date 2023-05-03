@@ -22,7 +22,7 @@ public class Ecumenopolis extends Special {
     /**
      * <h2>Konstruktor ekumenopole</h2>
      */
-    Ecumenopolis() {
+    public Ecumenopolis() {
         setType("Terrestial");
         setHabitablePlanetType("Special");
         setSpecialPlanetType("Ecumenopolis");
