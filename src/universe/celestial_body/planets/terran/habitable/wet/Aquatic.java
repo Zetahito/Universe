@@ -3,27 +3,25 @@ package universe.celestial_body.planets.terran.habitable.wet;
 import universe.enums.PlanetaryFeature;
 
 /**
- * <h1>Oceánová planeta</h1>
+ * <h1>Akvatická planeta</h1>
  * Kamenná planeta s dýchatelnou atmosférou složenou z dusíku a kyslíku.
- * Oceány pokrývají více než 90% povrchu planety.
- * Rozprostřené ostrovy zde tvoří menšinu.
+ * Planeta má významnou hydrosféru a veškerý povrch je pokryt oceánem.
  * @author Jakub Štych
- * @version 4.5.2023
+ * @version 3.5.2023
  */
-public class Ocean extends Wet {
+public class Aquatic extends Wet {
 
     /**
-     * <h2>Konstruktor oceánové planety</h2>
+     * <h2>Konstruktor větrné planety</h2>
      */
-    public Ocean() {
+    public Aquatic() {
         setType("Terrestial");
         setHabitablePlanetType("Wet");
-        setWetPlanetType("Ocean");
+        setWetPlanetType("Aquatic");
 
         setHabitability(95);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.MARINE_LIFE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ISLAND);
     }
 }

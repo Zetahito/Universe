@@ -18,6 +18,8 @@ public abstract class Wet extends HabitablePlanet {
     /**
      * <h3>Typ vlhké planety</h3>
      * //TODO
+     * @see #getWetPlanetType() Getter
+     * @see #setWetPlanetType(String) Setter
      */
     private String wetPlanetType;
 

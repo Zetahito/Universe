@@ -3,26 +3,28 @@ package universe.celestial_body.planets.terran.habitable.wet;
 import universe.enums.PlanetaryFeature;
 
 /**
- * <h1>Kontinentální planeta</h1>
+ * <h1>Planeta zkamenělých dřevin</h1>
  * Kamenná planeta s dýchatelnou atmosférou složenou z dusíku a kyslíku.
  * Je zde aktivní a stabilní hydrosféra.
  * Povrch se skládá z kontinentů, které jsou od sebe odděleny oceány.
  * Jsou zde velké klimatické rozdíly v závislosti na lokaci na planetě.
+ * Kvůli celoplanetární potopě po konci doby ledové je povrch pokrytý zkamenělými pozůstatky lesů.
  * @author Jakub Štych
- * @version 4.5.2023
+ * @version 9.5.2023
  */
-public class Continental extends Wet {
+public class PetrifiedWoods extends Wet {
 
     /**
-     * <h2>Konstruktor kontinentální planety</h2>
+     * <h2>Konstruktor planety zkamenělých dřevin</h2>
      */
-    public Continental() {
+    public PetrifiedWoods() {
         setType("Terrestial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Continental");
 
         setHabitability(95);
 
+        setSelectedPlanetaryFeature(PlanetaryFeature.PETRIFIED_TREE);
         setSelectedPlanetaryFeature(PlanetaryFeature.OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
