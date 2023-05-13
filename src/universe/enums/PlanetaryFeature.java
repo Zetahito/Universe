@@ -1,6 +1,7 @@
 package universe.enums;
 
 public enum PlanetaryFeature {
+
     ARID_PLANES,
     BADLANDS,
     BASALT_MOUNTAIN,
@@ -112,5 +113,19 @@ public enum PlanetaryFeature {
     MEADOW,
     NETHERWORLD,
     PETRIFIED_TREE,
-    
+    TOMB, SARCOPHAGUS,
+    CEMENTARY,
+    TOXIC_RIVER,
+    TOXIC_LAKE,
+    DUMP,
+    ACID_OCEAN,
+    INDUSTRIAL_WASTELAND,
+    MINE,
+    STREAM,
+    BIOLUMINESCENT_FUNGUS,
+    BIOLUMINESCENT_GRASS,
+    BIOLUMINESCENT_BUSH,
+    BIOLUMINESCENT_TREE,
+    BIOLUMINESCENT_FLOWER,
+    GIANT_ORGANISM,
 }
