@@ -16,19 +16,19 @@ public class WetCavern extends Wet {
      * <h2>Konstruktor vlhké jeskynní planety</h2>
      */
     public WetCavern() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Cavern");
 
         setHabitability(70);
 
+        setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PLAIN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
         setSelectedPlanetaryFeature(PlanetaryFeature.LUSH_CAVE);
         setSelectedPlanetaryFeature(PlanetaryFeature.CAVE_SYSTEM);
+        setSelectedPlanetaryFeature(PlanetaryFeature.NETHERWORLD);
         setSelectedPlanetaryFeature(PlanetaryFeature.HOLLOW_CAVERN);
         setSelectedPlanetaryFeature(PlanetaryFeature.UNDERGROUND_RIVER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
-        setSelectedPlanetaryFeature(PlanetaryFeature.PLAIN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.NETHERWORLD);
     }
 }

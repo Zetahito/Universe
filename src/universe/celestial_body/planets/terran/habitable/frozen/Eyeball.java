@@ -17,17 +17,17 @@ public class Eyeball extends Frozen {
      * <h2>Konstruktor planety oční bulvy</h2>
      */
     public Eyeball() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Special");
         setFrozenPlanetType("Eyeball");
 
         setHabitability(20);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.DEEP_COLD_OCEAN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.COLD_OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.ICEBERG);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLACIER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.COLD_OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.DEEP_COLD_OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
     }
 }

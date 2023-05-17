@@ -17,21 +17,21 @@ public class Tepui extends Wet {
      * <h2>Konstruktor tepuiské planety</h2>
      */
     public Tepui() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Tepui");
 
         setHabitability(95);
 
+        setSelectedPlanetaryFeature(PlanetaryFeature.MESA);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.JUNGLE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
+        setSelectedPlanetaryFeature(PlanetaryFeature.WATERFALL);
         setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
         setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);
-        setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MESA);
-        setSelectedPlanetaryFeature(PlanetaryFeature.JUNGLE);
         setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.WATERFALL);
-        setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
     }
 }

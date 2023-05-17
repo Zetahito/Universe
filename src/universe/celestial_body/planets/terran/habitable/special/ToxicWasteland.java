@@ -16,16 +16,15 @@ public class ToxicWasteland extends Special {
      * <h2>Konstruktor toxicky pusté planety</h2>
      */
     public ToxicWasteland() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Special");
         setSpecialPlanetType("Toxic Wasteland");
 
         setHabitability(0);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.TOXIC_RIVER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.TOXIC_LAKE);
         setSelectedPlanetaryFeature(PlanetaryFeature.DUMP);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ACID_OCEAN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.TOXIC_LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.TOXIC_RIVER);
         setSelectedPlanetaryFeature(PlanetaryFeature.INDUSTRIAL_WASTELAND);
     }
 }

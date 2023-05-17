@@ -16,19 +16,19 @@ public class SemiArid extends Dry {
     /**
      * <h2>Konstruktor polovyprahlé planety</h2>
      */
-    SemiArid() {
-        setType("Terrestial");
+    public SemiArid() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Semi-Arid");
 
         setHabitability(90);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
         setSelectedPlanetaryFeature(PlanetaryFeature.MESA);
-        setSelectedPlanetaryFeature(PlanetaryFeature.VALLEY);
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.VALLEY);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
         setSelectedPlanetaryFeature(PlanetaryFeature.CANYON);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLANES);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLAINS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
     }
 }

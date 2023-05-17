@@ -17,17 +17,17 @@ public class Lichen extends Frozen {
      * <h2>Konstruktor kryoflórové planety</h2>
      */
     public Lichen() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Lichen");
 
         setHabitability(70);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.CRAGGY_MOUNTAIN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLACIER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN_FOREST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.CRAGGY_MOUNTAIN);
     }
 }

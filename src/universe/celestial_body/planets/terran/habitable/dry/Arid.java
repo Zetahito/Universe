@@ -16,18 +16,18 @@ public class Arid extends Dry {
      * <h2>Konstruktor vyprahlé planety</h2>
      */
     public Arid() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Arid");
 
         setHabitability(85);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
         setSelectedPlanetaryFeature(PlanetaryFeature.DUST);
         setSelectedPlanetaryFeature(PlanetaryFeature.MESA);
         setSelectedPlanetaryFeature(PlanetaryFeature.CANYON);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLAINS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
         setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLANES);
     }
     
 }

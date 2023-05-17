@@ -16,15 +16,15 @@ public class Savanna extends Dry {
     /**
      * <h2>Konstruktor savanové planety</h2>
      */
-    Savanna() {
-        setType("Terrestial");
+    public Savanna() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Savanna");
 
         setHabitability(85);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
         setSelectedPlanetaryFeature(PlanetaryFeature.OASIS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLANES);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLAINS);
     }
 }

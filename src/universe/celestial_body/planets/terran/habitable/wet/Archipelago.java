@@ -19,15 +19,15 @@ public class Archipelago extends Wet {
      * <h2>Konstruktor souostrovní planety</h2>
      */
     public Archipelago() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Archipelago");
 
         setHabitability(85);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.ISLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.VOLCANO);
         setSelectedPlanetaryFeature(PlanetaryFeature.MARINE_LIFE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
     }
 }

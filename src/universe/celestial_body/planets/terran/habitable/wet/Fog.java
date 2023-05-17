@@ -17,7 +17,7 @@ public class Fog extends Wet {
      * <h2>Konstruktor mlhavé planety</h2>
      */
     public Fog() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Fog");
 
@@ -26,7 +26,7 @@ public class Fog extends Wet {
         setSelectedPlanetaryFeature(PlanetaryFeature.MIST);
         setSelectedPlanetaryFeature(PlanetaryFeature.LUSH_CAVE);
         setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
     }
 }

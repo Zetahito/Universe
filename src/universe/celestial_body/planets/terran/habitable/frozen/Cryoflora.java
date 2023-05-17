@@ -18,15 +18,15 @@ public class Cryoflora extends Frozen {
      * <h2>Konstruktor kryoflórové planety</h2>
      */
     public Cryoflora() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Cryoflora");
 
         setHabitability(60);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.CRYOFLORA);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
         setSelectedPlanetaryFeature(PlanetaryFeature.FROZEN_LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
         setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
     }
 }

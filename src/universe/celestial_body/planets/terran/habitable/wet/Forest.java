@@ -16,14 +16,14 @@ public class Forest extends Wet {
      * <h2>Konstruktor lesní planety</h2>
      */
     public Forest() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Forest");
 
         setHabitability(95);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
         setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
         setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
     }

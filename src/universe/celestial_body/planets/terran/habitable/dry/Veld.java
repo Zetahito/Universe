@@ -16,19 +16,19 @@ public class Veld extends Dry {
     /**
      * <h2>Konstruktor veldové planety</h2>
      */
-    Veld() {
-        setType("Terrestial");
+    public Veld() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Veld");
 
         setHabitability(85);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.FLAT);
+        setSelectedPlanetaryFeature(PlanetaryFeature.OASIS);
         setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLAINS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
         setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
         setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.OASIS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLANES);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
     }
 }

@@ -18,23 +18,23 @@ public class Antarctic extends Frozen {
      * <h2>Konstruktor antarktické planety</h2>
      */
     public Antarctic() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Antarctic");
 
         setHabitability(45);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
+        setSelectedPlanetaryFeature(PlanetaryFeature.VALLEY);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ICEBERG);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SINKHOLE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.DEPRESSION);
+        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
         setSelectedPlanetaryFeature(PlanetaryFeature.FRIGID_LAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.FROZEN_LAKE);
         setSelectedPlanetaryFeature(PlanetaryFeature.DIAMOND_DUST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SINKHOLE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.DEPRESSION);
-        setSelectedPlanetaryFeature(PlanetaryFeature.VALLEY);
-        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ICEBERG);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
         setSelectedPlanetaryFeature(PlanetaryFeature.DEEP_COLD_OCEAN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
     }
 }

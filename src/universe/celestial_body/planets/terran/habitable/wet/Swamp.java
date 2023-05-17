@@ -19,16 +19,16 @@ public class Swamp extends Wet {
      * <h2>Konstruktor močálové planety</h2>
      */
     public Swamp() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Swamp");
 
         setHabitability(80);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.SHALLOW_WATER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
         setSelectedPlanetaryFeature(PlanetaryFeature.BOG);
         setSelectedPlanetaryFeature(PlanetaryFeature.SWAMP);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SHALLOW_WATER);
         setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
     }
 }

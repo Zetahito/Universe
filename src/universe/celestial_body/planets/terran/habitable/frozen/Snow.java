@@ -17,7 +17,7 @@ public class Snow extends Frozen {
      * <h2>Konstruktor sněžné planety</h2>
      */
     public Snow() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Snow");
 

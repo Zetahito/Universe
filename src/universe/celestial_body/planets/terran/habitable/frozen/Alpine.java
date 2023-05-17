@@ -18,21 +18,21 @@ public class Alpine extends Frozen {
      * <h2>Konstruktor vysokohorské planety</h2>
      */
     public Alpine() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Alpine");
 
         setHabitability(60);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.FROZEN_LAKE);
         setSelectedPlanetaryFeature(PlanetaryFeature.VALLEY);
-        setSelectedPlanetaryFeature(PlanetaryFeature.UNDERGROUND_RIVER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.UNDERGROUND_SEA);
-        setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
-        setSelectedPlanetaryFeature(PlanetaryFeature.FRIGID_LAND);
-        setSelectedPlanetaryFeature(PlanetaryFeature.COLD_OCEAN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.DEEP_COLD_OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.ICEBERG);
+        setSelectedPlanetaryFeature(PlanetaryFeature.COLD_OCEAN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.FROZEN_LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.FRIGID_LAND);
+        setSelectedPlanetaryFeature(PlanetaryFeature.UNDERGROUND_SEA);
+        setSelectedPlanetaryFeature(PlanetaryFeature.DEEP_COLD_OCEAN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
+        setSelectedPlanetaryFeature(PlanetaryFeature.UNDERGROUND_RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
     }
 }

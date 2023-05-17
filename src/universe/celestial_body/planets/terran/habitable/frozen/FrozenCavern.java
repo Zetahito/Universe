@@ -17,19 +17,19 @@ public class FrozenCavern extends Frozen {
      * <h2>Konstruktor zmrzlé jeskynní planety</h2>
      */
     public FrozenCavern() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setFrozenPlanetType("Cavern");
 
         setHabitability(70);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.CAVE_SYSTEM);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HOLLOW_CAVERN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.FROZEN_LAKE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN);
         setSelectedPlanetaryFeature(PlanetaryFeature.MOSS);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.FROZEN_LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.CAVE_SYSTEM);
         setSelectedPlanetaryFeature(PlanetaryFeature.NETHERWORLD);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HOLLOW_CAVERN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
     }
 }

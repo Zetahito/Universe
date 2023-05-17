@@ -19,18 +19,18 @@ public class Cascadian extends Wet {
      * <h2>Konstruktor kaskádové planety</h2>
      */
     public Cascadian() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Cascadian");
 
         setHabitability(95);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
-        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
         setSelectedPlanetaryFeature(PlanetaryFeature.OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.ISLAND);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
         setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
     }
 }

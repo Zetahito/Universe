@@ -22,6 +22,7 @@ public abstract class Dry extends HabitablePlanet {
      * @see Coastal Pobřežní planeta
      * @see Coral Korálová planeta
      * @see Desert Pouštní planeta
+     * @see DryCavern Suchá jeskynní planeta
      * @see Dune Dunová planeta
      * @see Mediterranean Středozemní planeta
      * @see Mesa Planeta stolových hor

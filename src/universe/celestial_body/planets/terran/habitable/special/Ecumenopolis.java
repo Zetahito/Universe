@@ -13,7 +13,7 @@ import universe.enums.PlanetaryFeature;
  * Ze všech planet nabízí největší prostor pro obyvatele.
  * Z toho důvodu mívají tyto planety největší množstvím obyvatel.
  * Mají vysokou energetickou náročnost a je nutné je draze udržovat.
- * @see Relic Opuštěná ekumenopole
+ * Opuštěná ekumenopole se nazývá {@link Relic Reliktní planeta}.
  * @author Jakub Štych
  * @version 22.4.2023
  */
@@ -23,7 +23,7 @@ public class Ecumenopolis extends Special {
      * <h2>Konstruktor ekumenopole</h2>
      */
     public Ecumenopolis() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Special");
         setSpecialPlanetType("Ecumenopolis");
 

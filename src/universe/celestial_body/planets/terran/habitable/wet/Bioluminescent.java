@@ -19,21 +19,21 @@ public class Bioluminescent extends Wet {
      * <h2>Konstruktor bioluminescentní planety</h2>
      */
     public Bioluminescent() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Bioluminescent");
 
         setHabitability(100);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.BIOLUMINESCENT_FLOWER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.STREAM);
+        setSelectedPlanetaryFeature(PlanetaryFeature.WATERFALL);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);
         setSelectedPlanetaryFeature(PlanetaryFeature.BIOLUMINESCENT_TREE);
         setSelectedPlanetaryFeature(PlanetaryFeature.BIOLUMINESCENT_BUSH);
         setSelectedPlanetaryFeature(PlanetaryFeature.BIOLUMINESCENT_GRASS);
         setSelectedPlanetaryFeature(PlanetaryFeature.BIOLUMINESCENT_FUNGUS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.WATERFALL);
-        setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.STREAM);
+        setSelectedPlanetaryFeature(PlanetaryFeature.BIOLUMINESCENT_FLOWER);
     }
 }

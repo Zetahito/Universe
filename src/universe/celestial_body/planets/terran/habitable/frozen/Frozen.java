@@ -25,7 +25,10 @@ public abstract class Frozen extends HabitablePlanet {
      * @see Boreal Subpolární planeta
      * @see Cryoflora Kryoflórová planeta
      * @see DuneForest Planeta dunových lesů
+     * @see Eyeball Planeta oční bulvy
      * @see Frigid Mrazivá planeta
+     * @see FrozenCavern Zmrzlá jeskynní planeta
+     * @see Geothermal Geotermální planeta
      * @see Glacial Glaciální planeta
      * @see Glaciovolcanic Planeta vulkanických ledovců
      * @see Highland Vysočinská planeta

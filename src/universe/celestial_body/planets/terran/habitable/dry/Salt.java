@@ -15,8 +15,8 @@ public class Salt extends Dry {
     /**
      * <h2>Konstruktor slané planety</h2>
      */
-    Salt() {
-        setType("Terrestial");
+    public Salt() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Salt");
 
@@ -24,9 +24,9 @@ public class Salt extends Dry {
 
         setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
         setSelectedPlanetaryFeature(PlanetaryFeature.SALT_FLAT);
         setSelectedPlanetaryFeature(PlanetaryFeature.LARGE_CRYSTAL);
         setSelectedPlanetaryFeature(PlanetaryFeature.SMALL_CRYSTAL);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
     }
 }

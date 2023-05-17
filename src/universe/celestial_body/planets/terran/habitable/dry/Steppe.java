@@ -15,18 +15,18 @@ public class Steppe extends Dry {
     /**
      * <h2>Konstruktor stepní planety</h2>
      */
-    Steppe() {
-        setType("Terrestial");
+    public Steppe() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Steppe");
 
         setHabitability(95);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLANES);
         setSelectedPlanetaryFeature(PlanetaryFeature.HILL);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
         setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
         setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLAINS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
     }
 }

@@ -16,18 +16,18 @@ public class DryCavern extends Dry {
      * <h2>Konstruktor suché jeskynní planety</h2>
      */
     public DryCavern() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setDryPlanetType("Cavern");
 
         setHabitability(70);
 
+        setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.OASIS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
+        setSelectedPlanetaryFeature(PlanetaryFeature.NETHERWORLD);
         setSelectedPlanetaryFeature(PlanetaryFeature.CAVE_SYSTEM);
         setSelectedPlanetaryFeature(PlanetaryFeature.HOLLOW_CAVERN);
         setSelectedPlanetaryFeature(PlanetaryFeature.UNDERGROUND_RIVER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.OASIS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.NETHERWORLD);
     }
 }

@@ -16,18 +16,18 @@ public class Basalt extends Frozen {
      * <h2>Konstruktor bazaltové planety</h2>
      */
     public Basalt() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Special");
         setFrozenPlanetType("Basalt");
 
         setHabitability(85);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.EXTINCT_VOLCANO);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MOSS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN);
         setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
         setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
         setSelectedPlanetaryFeature(PlanetaryFeature.LOWLANDS);
         setSelectedPlanetaryFeature(PlanetaryFeature.BASALT_MOUNTAIN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MOSS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.EXTINCT_VOLCANO);
     }
 }

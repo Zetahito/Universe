@@ -18,28 +18,28 @@ public class PetrifiedWoods extends Wet {
      * <h2>Konstruktor planety zkamenělých dřevin</h2>
      */
     public PetrifiedWoods() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Continental");
 
         setHabitability(95);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.PETRIFIED_TREE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.OCEAN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
-        setSelectedPlanetaryFeature(PlanetaryFeature.COLD_OCEAN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ISLAND);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLANES);
-        setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLANDS);
         setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.OCEAN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ISLAND);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLANDS);
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
         setSelectedPlanetaryFeature(PlanetaryFeature.LONG_RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.COLD_OCEAN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLAINS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MARINE_LIFE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PETRIFIED_TREE);
         setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
         setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MARINE_LIFE);
         setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
     }
 }

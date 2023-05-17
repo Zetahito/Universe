@@ -14,9 +14,10 @@ public abstract class Gas extends Planet {
 
     /**
      * <h3>Typ plynné planety</h3>
-     * @see universe.celestial_body.planets.gas.GasGiant Plynný obr
-     * @see universe.celestial_body.planets.gas.HotJupiter Horký Jupiter
-     * @see universe.celestial_body.planets.gas.IceGiant Ledový obr
+     * @see CloudlessGiant Bezmračný plynný obr
+     * @see GasGiant Plynný obr
+     * @see HotJupiter Horký Jupiter
+     * @see IceGiant Ledový obr
      * @see #getGasPlanetType() Getter
      * @see #setGasPlanetType(String) Setter
      */

@@ -17,15 +17,15 @@ public class Arctic extends Frozen {
      * <h2>Konstruktor arktické planety</h2>
      */
     public Arctic() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Arctic");
 
         setHabitability(65);
 
+        setSelectedPlanetaryFeature(PlanetaryFeature.ICEBERG);
         setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_POLES);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ICEBERG);
         setSelectedPlanetaryFeature(PlanetaryFeature.MILD_EQUATOR);
         setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
     }

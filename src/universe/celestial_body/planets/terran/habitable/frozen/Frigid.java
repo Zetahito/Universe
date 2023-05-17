@@ -19,16 +19,16 @@ public class Frigid extends Frozen {
      * <h2>Konstruktor mrazivé planety</h2>
      */
     public Frigid() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Frigid");
 
         setHabitability(25);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.FRIGID_LAND);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.FROZEN_LAKE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
         setSelectedPlanetaryFeature(PlanetaryFeature.PERMAFROST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.FRIGID_LAND);
+        setSelectedPlanetaryFeature(PlanetaryFeature.FROZEN_LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
     }
 }

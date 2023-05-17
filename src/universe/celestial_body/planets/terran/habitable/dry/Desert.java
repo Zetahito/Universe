@@ -16,16 +16,16 @@ public class Desert extends Dry {
     /**
      * <h2>Konstruktor pouštní planety</h2>
      */
-    Desert() {
-        setType("Terrestial");
+    public Desert() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Desert");
 
         setHabitability(75);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
         setSelectedPlanetaryFeature(PlanetaryFeature.OASIS);
         setSelectedPlanetaryFeature(PlanetaryFeature.DUNES);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
     }
 }

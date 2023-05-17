@@ -16,15 +16,15 @@ public class Sinkhole extends Dry {
     /**
      * <h2>Konstruktor závrtové planety</h2>
      */
-    Sinkhole() {
-        setType("Terrestial");
+    public Sinkhole() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Sinkhole");
 
         setHabitability(90);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.SINKHOLE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLANES);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLAINS);
         setSelectedPlanetaryFeature(PlanetaryFeature.SUBTERRANEAN_OCEAN);
     }
 }

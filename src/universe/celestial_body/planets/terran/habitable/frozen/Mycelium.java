@@ -16,20 +16,20 @@ public class Mycelium extends Frozen {
      * <h2>Konstruktor podhoubní planety</h2>
      */
     public Mycelium() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Special");
         setFrozenPlanetType("Mycelium");
 
         setHabitability(60);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.FUNGAL_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MUSHROOM);
-        setSelectedPlanetaryFeature(PlanetaryFeature.CAVE_SYSTEM);
-        setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MUSHROOM);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
+        setSelectedPlanetaryFeature(PlanetaryFeature.CAVE_SYSTEM);
+        setSelectedPlanetaryFeature(PlanetaryFeature.FUNGAL_FOREST);
     }
 }

@@ -15,15 +15,15 @@ public class Mediterranean extends Dry {
     /**
      * <h2>Konstruktor středozemní planety</h2>
      */
-    Mediterranean() {
-        setType("Terrestial");
+    public Mediterranean() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Mediterranean");
 
         setHabitability(80);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
         setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
         setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
     }

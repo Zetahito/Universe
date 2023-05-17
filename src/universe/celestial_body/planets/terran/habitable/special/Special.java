@@ -16,7 +16,31 @@ public abstract class Special extends HabitablePlanet {
 
     /**
      * <h3>Typ speciální planety</h3>
-     * //TODO
+     * @see Acid Kyselinová planeta
+     * @see Ammonia Amoniaková planeta
+     * @see Archive Archivová planeta
+     * @see Ash Popelová planeta
+     * @see CoreTap Planeta s odhaleným jádrem
+     * @see Crucible Žíhací planeta
+     * @see Crystal Krystalová planeta
+     * @see EcoArcology Ekologická ekumenopole
+     * @see Ecumenopolis Ekumenopolis
+     * @see Floating Vznášející se planeta
+     * @see Gaia Planeta gaia
+     * @see Hive Úlová planeta
+     * @see Hycean Hyceánová planeta
+     * @see Methane Metanová planeta
+     * @see Necro Mrtvá planeta
+     * @see Nomad Nomádská planeta
+     * @see Radiotrophic Radiotropická planeta
+     * @see Relic Reliktní planeta
+     * @see Scrapyard Skládková planeta
+     * @see Stripmine Planeta povrchového dolu
+     * @see Sulfur Sírová planeta
+     * @see TechnoOrganic Techno-organická planeta
+     * @see TidallyLocked Planeta ve vázané rotaci
+     * @see Tomb Zničená planeta
+     * @see ToxicWasteland Toxicky pustá planeta
      */
     private String specialPlanetType;
 

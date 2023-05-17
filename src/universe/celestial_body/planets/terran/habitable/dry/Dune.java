@@ -16,16 +16,16 @@ public class Dune extends Dry {
     /**
      * <h2>Konstruktor dunové planety</h2>
      */
-    Dune() {
-        setType("Terrestial");
+    public Dune() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Dune");
 
         setHabitability(55);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.DUNES);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
         setSelectedPlanetaryFeature(PlanetaryFeature.OASIS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
         setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);
         setSelectedPlanetaryFeature(PlanetaryFeature.UNDERGROUND_RIVER);
     }

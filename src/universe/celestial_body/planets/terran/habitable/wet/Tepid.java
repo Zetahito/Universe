@@ -18,16 +18,17 @@ public class Tepid extends Wet {
      * <h2>Konstruktor vlažné planety</h2>
      */
     public Tepid() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Tepid");
 
         setHabitability(90);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.OCEAN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.CRAGGY_MOUNTAIN);
         setSelectedPlanetaryFeature(PlanetaryFeature.WATERFALL);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LONG_RIVER);
         setSelectedPlanetaryFeature(PlanetaryFeature.LUSH_CAVE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LONG_RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.CRAGGY_MOUNTAIN);
+
     }
 }

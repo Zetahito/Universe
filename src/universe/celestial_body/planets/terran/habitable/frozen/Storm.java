@@ -19,15 +19,15 @@ public class Storm extends Frozen {
      * <h2>Konstruktor bouřlivé planety</h2>
      */
     public Storm() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Storm");
 
         setHabitability(50);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_POLES);
-        setSelectedPlanetaryFeature(PlanetaryFeature.DEEP_COLD_OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
         setSelectedPlanetaryFeature(PlanetaryFeature.MARINE_LIFE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.DEEP_COLD_OCEAN);
     }
 }

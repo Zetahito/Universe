@@ -19,16 +19,16 @@ public class Reef extends Wet {
      * <h2>Konstruktor útesové planety</h2>
      */
     public Reef() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Reef");
 
         setHabitability(80);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.CORAL_REEF);
-        setSelectedPlanetaryFeature(PlanetaryFeature.CORAL_ISLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.CORAL);
         setSelectedPlanetaryFeature(PlanetaryFeature.ISLAND);
+        setSelectedPlanetaryFeature(PlanetaryFeature.CORAL_REEF);
+        setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.CORAL_ISLAND);
     }
 }

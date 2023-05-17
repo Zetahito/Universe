@@ -18,20 +18,20 @@ public class Mangrove extends Wet {
      * <h2>Konstruktor mangovníkové planety</h2>
      */
     public Mangrove() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Mangrove");
 
         setHabitability(100);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.SHALLOW_WATER);
         setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
         setSelectedPlanetaryFeature(PlanetaryFeature.OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.JUNGLE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SNOW_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);
         setSelectedPlanetaryFeature(PlanetaryFeature.LOWLANDS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SNOW_FOREST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SHALLOW_WATER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);
     }
 }

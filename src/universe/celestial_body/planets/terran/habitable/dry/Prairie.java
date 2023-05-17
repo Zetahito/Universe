@@ -15,21 +15,22 @@ public class Prairie extends Dry {
     /**
      * <h2>Konstruktor prériové planety</h2>
      */
-    Prairie() {
-        setType("Terrestial");
+    public Prairie() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Prairie");
 
         setHabitability(75);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
-        setSelectedPlanetaryFeature(PlanetaryFeature.STEPPES);
-        setSelectedPlanetaryFeature(PlanetaryFeature.PRAIRIE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LONG_RIVER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
         setSelectedPlanetaryFeature(PlanetaryFeature.RAVINE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.STEPPES);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PRAIRIE);
         setSelectedPlanetaryFeature(PlanetaryFeature.LOWLANDS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LONG_RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
+
     }
 }

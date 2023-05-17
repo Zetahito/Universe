@@ -16,7 +16,7 @@ public class DuneForest extends Frozen {
      * <h2>Konstruktor planety dunových lesů</h2>
      */
     public DuneForest() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Dune Forest");
 
@@ -24,10 +24,10 @@ public class DuneForest extends Frozen {
 
         setSelectedPlanetaryFeature(PlanetaryFeature.DUST);
         setSelectedPlanetaryFeature(PlanetaryFeature.DUNES);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SNOW_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SNOW_FOREST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
         setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
     }
 }

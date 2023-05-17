@@ -20,16 +20,16 @@ public class Necro extends Special {
      * <h2>Konstruktor mrtvé planety</h2>
      */
     public Necro() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Special");
         setSpecialPlanetType("Necro");
 
         setHabitability(0);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.TOMB);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SARCOPHAGUS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.CEMENTARY);
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.CEMENTARY);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SARCOPHAGUS);
     }
 }

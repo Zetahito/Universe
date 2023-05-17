@@ -16,8 +16,8 @@ public class Supercontinent extends Dry {
     /**
      * <h2>Konstruktor superkontinentální planety</h2>
      */
-    Supercontinent() {
-        setType("Terrestial");
+    public Supercontinent() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Supercontinent");
 
@@ -26,7 +26,7 @@ public class Supercontinent extends Dry {
         setSelectedPlanetaryFeature(PlanetaryFeature.OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.BEACH);
         setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLANES);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ARID_PLAINS);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
         setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
     }

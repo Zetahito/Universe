@@ -8,6 +8,7 @@ import universe.enums.PlanetaryFeature;
  * Vulkanická aktivita tohoto mladého světa zpomalila.
  * Díky tomu se zde začala rozšiřovat fauna a flora.
  * Atmosféra i hydrosféra se již stabilizovala.
+ * Planeta se vyvinula z {@link universe.celestial_body.planets.terran.habitable.special.Ash popelavé planety}
  * @author Jakub Štych
  * @version 26.4.2023
  */
@@ -16,20 +17,20 @@ public class Primal extends Dry {
     /**
      * <h2>Konstruktor mladé planety</h2>
      */
-    Primal() {
-        setType("Terrestial");
+    public Primal() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Primal");
 
         setHabitability(60);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.VOLCANO);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.VALLEY);
+        setSelectedPlanetaryFeature(PlanetaryFeature.VOLCANO);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAVA_LAKE);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAVA_RIVER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.VALLEY);
-        setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
     }
 }

@@ -17,19 +17,19 @@ public class Highland extends Frozen {
      * <h2>Konstruktor vysočinské planety</h2>
      */
     public Highland() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Highland");
 
         setHabitability(70);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
         setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
         setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
         setSelectedPlanetaryFeature(PlanetaryFeature.CRAGGY_MOUNTAIN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
         setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
     }
 }

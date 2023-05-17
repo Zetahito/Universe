@@ -2,6 +2,7 @@ package universe.celestial_body.planets.terran.habitable.wet;
 
 
 import universe.celestial_body.planets.terran.habitable.HabitablePlanet;
+import universe.celestial_body.planets.terran.habitable.dry.Aquifer;
 import universe.enums.PlanetaryFeature;
 
 import java.util.ArrayList;
@@ -17,7 +18,28 @@ public abstract class Wet extends HabitablePlanet {
 
     /**
      * <h3>Typ vlhké planety</h3>
-     * //TODO
+     * @see Aquatic Akvatická planeta
+     * @see Archipelago Souostrovní planeta
+     * @see Atoll Atolová planeta
+     * @see Bioluminescent Bioluminescentní planeta
+     * @see Cascadian Kaskádová planeta
+     * @see Cenote Planeta zatopených krasových závrtů
+     * @see Continental Kontinentální planeta
+     * @see Crag Planeta skalních útesů
+     * @see Fog Mlhavá planeta
+     * @see Forest Lesní planeta
+     * @see Lake Jezerní planeta
+     * @see Mangrove Mangovníková planeta
+     * @see Megaflora Planeta megaflóry
+     * @see Ocean Oceánová planeta
+     * @see PetrifiedWoods Planeta zkamenělých dřevin
+     * @see Reef Útesová planeta
+     * @see Retinal Retinaldehydová planeta
+     * @see Swamp Močálová planeta
+     * @see Tepid Vlažná planeta
+     * @see Tepui Tepuiská planeta
+     * @see Tropical Tropická planeta
+     * @see WetCavern Vlhká jeskynní planeta
      * @see #getWetPlanetType() Getter
      * @see #setWetPlanetType(String) Setter
      */

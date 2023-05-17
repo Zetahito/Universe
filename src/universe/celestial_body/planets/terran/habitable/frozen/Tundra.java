@@ -17,16 +17,16 @@ public class Tundra extends Frozen {
      * <h2>Konstruktor tundrové planety</h2>
      */
     public Tundra() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Tundra");
 
         setHabitability(70);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.PERMAFROST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MILD_EQUATOR);
         setSelectedPlanetaryFeature(PlanetaryFeature.MOSS);
         setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PERMAFROST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MILD_EQUATOR);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
     }
 }

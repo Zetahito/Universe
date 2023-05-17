@@ -19,17 +19,17 @@ public class Glacial extends Frozen {
      * <h2>Konstruktor glaciální planety</h2>
      */
     public Glacial() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Glacial");
 
         setHabitability(45);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLACIER);
         setSelectedPlanetaryFeature(PlanetaryFeature.ICEBERG);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MARINE_LIFE);
         setSelectedPlanetaryFeature(PlanetaryFeature.SINKHOLE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MARINE_LIFE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
         setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
     }
 }

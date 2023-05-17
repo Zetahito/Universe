@@ -17,13 +17,13 @@ public class CoreTap extends Special {
      * <h2>Konstruktor planety s odhaleným jádrem</h2>
      */
     public CoreTap() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Special");
         setSpecialPlanetType("Core Tap");
 
         setHabitability(25);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.INDUSTRIAL_WASTELAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.MINE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.INDUSTRIAL_WASTELAND);
     }
 }

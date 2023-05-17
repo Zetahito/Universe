@@ -16,7 +16,7 @@ public class Atoll extends Wet {
      * <h2>Konstruktor atolové planety</h2>
      */
     public Atoll() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Atoll");
 
@@ -25,9 +25,9 @@ public class Atoll extends Wet {
         setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
         setSelectedPlanetaryFeature(PlanetaryFeature.CORAL_REEF);
         setSelectedPlanetaryFeature(PlanetaryFeature.CORAL_ISLAND);
-        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_ISLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.MILD_EQUATOR);
+        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_ISLAND);
     }
 }

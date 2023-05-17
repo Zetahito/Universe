@@ -15,13 +15,13 @@ public class Aquatic extends Wet {
      * <h2>Konstruktor větrné planety</h2>
      */
     public Aquatic() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Aquatic");
 
         setHabitability(95);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.MARINE_LIFE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
     }
 }

@@ -17,7 +17,7 @@ public class Hive extends Special {
      * <h2>Konstruktor úlové planety</h2>
      */
     public Hive() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Special");
         setSpecialPlanetType("Hive");
 

@@ -16,17 +16,17 @@ public class Tropical extends Wet {
      * <h2>Konstruktor tropické planety</h2>
      */
     public Tropical() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Tropical");
 
         setHabitability(95);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.DENSE_VEGETATION);
-        setSelectedPlanetaryFeature(PlanetaryFeature.JUNGLE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
         setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.JUNGLE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.DENSE_VEGETATION);
     }
 }

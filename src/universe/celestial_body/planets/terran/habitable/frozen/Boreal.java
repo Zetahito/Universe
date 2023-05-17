@@ -18,26 +18,26 @@ public class Boreal extends Frozen {
      * <h2>Konstruktor subpolární planety</h2>
      */
     public Boreal() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Boreal");
 
         setHabitability(80);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);
-        setSelectedPlanetaryFeature(PlanetaryFeature.WATERFALL);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HILL);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MOSS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.WATERFALL);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PERMAFROST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
         setSelectedPlanetaryFeature(PlanetaryFeature.SNOW_FOREST);
         setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);
         setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HILL);
-        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MOSS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN);
         setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.PERMAFROST);
     }
 }

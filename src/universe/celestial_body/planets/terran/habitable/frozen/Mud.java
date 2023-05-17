@@ -18,7 +18,7 @@ public class Mud extends Frozen {
      * <h2>Konstruktor blátivé planety</h2>
      */
     public Mud() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Special");
         setFrozenPlanetType("Mud");
 

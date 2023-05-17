@@ -17,21 +17,21 @@ public class Geothermal extends Frozen {
      * <h2>Konstruktor geotermální planety</h2>
      */
     public Geothermal() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setFrozenPlanetType("Cascadian");
 
         setHabitability(60);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.HOT_SPRING);
-        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_ISLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MILD_EQUATOR);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);
         setSelectedPlanetaryFeature(PlanetaryFeature.ICEBERG);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLACIER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HOT_SPRING);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MILD_EQUATOR);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);
+        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_FOREST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.TROPICAL_ISLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
     }
 }

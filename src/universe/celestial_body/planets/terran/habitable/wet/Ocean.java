@@ -16,14 +16,14 @@ public class Ocean extends Wet {
      * <h2>Konstruktor oceánové planety</h2>
      */
     public Ocean() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Ocean");
 
         setHabitability(95);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MARINE_LIFE);
         setSelectedPlanetaryFeature(PlanetaryFeature.ISLAND);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MARINE_LIFE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
     }
 }

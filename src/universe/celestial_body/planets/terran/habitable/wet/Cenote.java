@@ -16,19 +16,19 @@ public class Cenote extends Wet {
      * <h2>Konstruktor planety zatopených krasových závrtů</h2>
      */
     public Cenote() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Cenote");
 
         setHabitability(95);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.SINKHOLE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.UNDERGROUND_RIVER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.UNDERGROUND_SEA);
-        setSelectedPlanetaryFeature(PlanetaryFeature.CAVE_SYSTEM);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LUSH_CAVE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HOLLOW_CAVERN);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SINKHOLE);
         setSelectedPlanetaryFeature(PlanetaryFeature.WATERFALL);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LUSH_CAVE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.CAVE_SYSTEM);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HOLLOW_CAVERN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.UNDERGROUND_SEA);
+        setSelectedPlanetaryFeature(PlanetaryFeature.UNDERGROUND_RIVER);
     }
 }

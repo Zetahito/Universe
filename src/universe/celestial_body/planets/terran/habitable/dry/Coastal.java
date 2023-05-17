@@ -17,17 +17,17 @@ public class Coastal extends Dry {
     /**
      * <h2>Konstruktor pobřežní planety</h2>
      */
-    Coastal() {
-        setType("Terrestial");
+    public Coastal() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Coastal");
 
-        setHabitability(93);
+        setHabitability(95);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.DEEP_COLD_OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.BEACH);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
         setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN);
         setSelectedPlanetaryFeature(PlanetaryFeature.SUCCULENT);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.DEEP_COLD_OCEAN);
     }
 }

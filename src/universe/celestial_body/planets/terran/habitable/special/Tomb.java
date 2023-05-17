@@ -18,15 +18,15 @@ public class Tomb extends Special {
      * <h2>Konstruktor zničené planety</h2>
      */
     public Tomb() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Special");
         setSpecialPlanetType("Tomb");
 
         setHabitability(0);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.TOMB);
-        setSelectedPlanetaryFeature(PlanetaryFeature.INDUSTRIAL_WASTELAND);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
+        setSelectedPlanetaryFeature(PlanetaryFeature.INDUSTRIAL_WASTELAND);
     }
 }

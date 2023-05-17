@@ -18,18 +18,18 @@ public class Retinal extends Wet {
      * <h2>Konstruktor retinaldehydové planety</h2>
      */
     public Retinal() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Retinal");
 
         setHabitability(80);
 
+        setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.OCEAN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLANDS);
         setSelectedPlanetaryFeature(PlanetaryFeature.RETINAL_GRASS);
         setSelectedPlanetaryFeature(PlanetaryFeature.RETINAL_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
         setSelectedPlanetaryFeature(PlanetaryFeature.CRAGGY_MOUNTAIN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLANDS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.OCEAN);
     }
 }

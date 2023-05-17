@@ -19,20 +19,20 @@ public class Lanthanide extends Frozen {
      * <h2>Konstruktor lanthanoidské planety</h2>
      */
     public Lanthanide() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Lanthanide");
 
         setHabitability(70);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.RING_SHAPED_MOUNTAIN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LONG_RIVER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
-        setSelectedPlanetaryFeature(PlanetaryFeature.FROZEN_LAKE);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LONG_RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.FROZEN_LAKE);
         setSelectedPlanetaryFeature(PlanetaryFeature.SNOW_FOREST);
+        setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RING_SHAPED_MOUNTAIN);
     }
 }

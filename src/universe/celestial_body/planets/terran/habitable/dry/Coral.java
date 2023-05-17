@@ -19,16 +19,16 @@ public class Coral extends Dry {
     /**
      * <h2>Konstruktor korálové planety</h2>
      */
-    Coral() {
-        setType("Terrestial");
+    public Coral() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Coral");
 
         setHabitability(70);
 
+        setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
+        setSelectedPlanetaryFeature(PlanetaryFeature.CORAL_FOREST);
         setSelectedPlanetaryFeature(PlanetaryFeature.SHALLOW_WATER);
         setSelectedPlanetaryFeature(PlanetaryFeature.MINERAL_WATER);
-        setSelectedPlanetaryFeature(PlanetaryFeature.CORAL_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
     }
 }

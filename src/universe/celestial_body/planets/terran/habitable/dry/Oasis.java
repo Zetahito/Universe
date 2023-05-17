@@ -13,16 +13,16 @@ import universe.enums.PlanetaryFeature;
  */
 public class Oasis extends Dry {
 
-    Oasis() {
-        setType("Terrestial");
+    public Oasis() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Oasis");
 
         setHabitability(65);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.OASIS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
         setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
     }
 }

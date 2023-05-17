@@ -17,20 +17,20 @@ public class Glaciovolcanic extends Frozen {
      * <h2>Konstruktor planety vulkanických ledovců</h2>
      */
     public Glaciovolcanic() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Glaciovolcanic");
 
         setHabitability(50);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.FROZEN_LAKE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLACIER);
         setSelectedPlanetaryFeature(PlanetaryFeature.ICEBERG);
         setSelectedPlanetaryFeature(PlanetaryFeature.VOLCANO);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HOT_SPRING);
         setSelectedPlanetaryFeature(PlanetaryFeature.WARM_LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HOT_SPRING);
+        setSelectedPlanetaryFeature(PlanetaryFeature.FROZEN_LAKE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
         setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PERMANENTLY_FROZEN_PLAINS);
     }
 }

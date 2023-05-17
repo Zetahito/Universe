@@ -17,8 +17,8 @@ public class Mesa extends Dry {
     /**
      * <h2>Konstruktor planety stolových hor</h2>
      */
-    Mesa() {
-        setType("Terrestial");
+    public Mesa() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Mesa");
 
@@ -27,8 +27,8 @@ public class Mesa extends Dry {
         setSelectedPlanetaryFeature(PlanetaryFeature.MESA);
         setSelectedPlanetaryFeature(PlanetaryFeature.KANYON);
         setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SNOW_FOREST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LONG_RIVER);
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LONG_RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SNOW_FOREST);
     }
 }

@@ -18,18 +18,18 @@ public class Crag extends Wet {
      * <h2>Konstruktor planety skalních útesů</h2>
      */
     public Crag() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Wet");
         setWetPlanetType("Crag");
 
         setHabitability(90);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ISLAND);
-        setSelectedPlanetaryFeature(PlanetaryFeature.CRAGGY_MOUNTAIN);
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ISLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.VOLCANO);
         setSelectedPlanetaryFeature(PlanetaryFeature.MARINE_LIFE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.CRAGGY_MOUNTAIN);
     }
 }

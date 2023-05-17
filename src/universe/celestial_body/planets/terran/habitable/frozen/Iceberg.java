@@ -18,15 +18,15 @@ public class Iceberg extends Frozen {
      * <h2>Konstruktor ledovcové planety</h2>
      */
     public Iceberg() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Iceberg");
 
         setHabitability(65);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.DEEP_COLD_OCEAN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.KELP);
         setSelectedPlanetaryFeature(PlanetaryFeature.ICEBERG);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.KELP);
+        setSelectedPlanetaryFeature(PlanetaryFeature.DEEP_COLD_OCEAN);
     }
 }

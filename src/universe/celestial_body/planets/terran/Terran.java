@@ -18,10 +18,20 @@ public abstract class Terran extends Planet {
      * <h3>Typ terestrické planety</h3>
      * Obyvatelné planety nejsou zahrnuty.
      * @see Barren Holý svět
+     * @see Carbon Uhlíkový svět
+     * @see Chthonian Chtonijský svět
+     * @see Diamond Diamantový svět
+     * @see Ethane Etanový svět
      * @see Frozen Zmrzlý svět
+     * @see Hothouse Skleníkový svět
+     * @see Hydrocarbon Uhlovodíkový svět
+     * @see Iron Železný svět
      * @see Molten Roztavený svět
      * @see Protoplanet Protoplaneta
+     * @see Rogue Toulavý svět
+     * @see Subglacial Subglaciální svět
      * @see Toxic Toxický svět
+     * @see Volcanic Sopečný svět
      * @see #getTerranPlanetType() Getter
      * @see #setTerranPlanetType(String) Setter
      */

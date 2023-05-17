@@ -17,17 +17,17 @@ public class Aeolian extends Frozen {
      * <h2>Konstruktor větrné planety</h2>
      */
     public Aeolian() {
-        setType("Terrestial");
+        setType("Terrestrial");
         setHabitablePlanetType("Frozen");
         setFrozenPlanetType("Aeolian");
 
         setHabitability(70);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.HOLLOW_CAVERN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
         setSelectedPlanetaryFeature(PlanetaryFeature.SINKHOLE);
         setSelectedPlanetaryFeature(PlanetaryFeature.DEPRESSION);
         setSelectedPlanetaryFeature(PlanetaryFeature.FRIGID_LAND);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HOLLOW_CAVERN);
         setSelectedPlanetaryFeature(PlanetaryFeature.EVERLASTING_SNOW);
     }
 }

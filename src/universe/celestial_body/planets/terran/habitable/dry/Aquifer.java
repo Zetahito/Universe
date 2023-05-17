@@ -16,17 +16,18 @@ public class Aquifer extends Dry {
     /**
      * <h2>Konstruktor vodonosné planety</h2>
      */
-    Aquifer() {
-        setType("Terrestial");
+    public Aquifer() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
-        setDryPlanetType("Aquifier");
+        setDryPlanetType("Aquifer");
 
         setHabitability(90);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.UNDERGROUND_RIVER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
         setSelectedPlanetaryFeature(PlanetaryFeature.LAGOON);
         setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.IRRIGATION_SYSTEM);
+        setSelectedPlanetaryFeature(PlanetaryFeature.UNDERGROUND_RIVER);
     }
 
 }

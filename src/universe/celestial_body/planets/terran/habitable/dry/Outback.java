@@ -16,18 +16,18 @@ public class Outback extends Dry {
     /**
      * <h2>Konstruktor vnitrozemní planety</h2>
      */
-    Outback() {
-        setType("Terrestial");
+    public Outback() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Outback");
 
         setHabitability(60);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
-        setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
         setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);
     }
 }

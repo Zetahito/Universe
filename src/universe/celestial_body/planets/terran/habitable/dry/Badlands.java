@@ -22,21 +22,21 @@ public class Badlands extends Dry {
     /**
      * <h2>Konstruktor badlands</h2>
      */
-    Badlands() {
-        setType("Terrestial");
+    public Badlands() {
+        setType("Terrestrial");
         setHabitablePlanetType("Dry");
         setDryPlanetType("Badlands");
 
         setHabitability(70);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.BADLANDS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SEDIMENTARY_ROCKS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.CLAY_RICH_SOIL);
-        setSelectedPlanetaryFeature(PlanetaryFeature.RAVINE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.PINNACLE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.CANYON);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCKS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RAVINE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.CANYON);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.BADLANDS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.PINNACLE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.CLAY_RICH_SOIL);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SEDIMENTARY_ROCKS);
     }
 }
