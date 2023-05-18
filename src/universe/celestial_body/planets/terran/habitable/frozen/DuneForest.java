@@ -23,7 +23,7 @@ public class DuneForest extends Frozen {
         setHabitability(70);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.DUST);
-        setSelectedPlanetaryFeature(PlanetaryFeature.DUNES);
+        setSelectedPlanetaryFeature(PlanetaryFeature.DUNE);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLACIAL_ICE);
         setSelectedPlanetaryFeature(PlanetaryFeature.SNOW_FOREST);
         setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);

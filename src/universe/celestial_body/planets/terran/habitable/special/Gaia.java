@@ -30,7 +30,7 @@ public class Gaia extends Special {
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
         setSelectedPlanetaryFeature(PlanetaryFeature.OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.PLAIN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.BUSHES);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
         setSelectedPlanetaryFeature(PlanetaryFeature.STREAM);
         setSelectedPlanetaryFeature(PlanetaryFeature.ICEBERG);
         setSelectedPlanetaryFeature(PlanetaryFeature.GLACIER);

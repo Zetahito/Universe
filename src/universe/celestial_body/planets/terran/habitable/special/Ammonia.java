@@ -24,7 +24,7 @@ public class Ammonia extends Special {
 
         setHabitability(5);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.AMMONIA_GROUND);
+        setSelectedPlanetaryFeature(PlanetaryFeature.AMMONIA_SOLID);
     }
 
 }

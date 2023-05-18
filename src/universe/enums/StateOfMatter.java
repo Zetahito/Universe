@@ -2,7 +2,7 @@ package universe.enums;
 
 /**
  * <h1>Skupenství hmoty</h1>
- * Možno používat jenom pro tři základní, ale je jich zde specifikováno patnáct.
+ * Možno používat jenom pro tři základní. Zde jich je specifikováno patnáct.
  * @author Jakub Štych
  * @version 13.5.2023
  */

@@ -23,6 +23,6 @@ public class Radiotrophic extends Special {
         setHabitability(20);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.RADIOACTIVE_LAKE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.RADIOACTIVE_FLOWER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RADIOACTIVE_PLANT);
     }
 }

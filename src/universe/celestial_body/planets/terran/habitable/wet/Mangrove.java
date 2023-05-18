@@ -27,7 +27,7 @@ public class Mangrove extends Wet {
         setSelectedPlanetaryFeature(PlanetaryFeature.SEA);
         setSelectedPlanetaryFeature(PlanetaryFeature.OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.JUNGLE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLANDS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.SNOW_FOREST);
         setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);
         setSelectedPlanetaryFeature(PlanetaryFeature.SHALLOW_WATER);

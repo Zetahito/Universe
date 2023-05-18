@@ -27,7 +27,6 @@ public class Coastal extends Dry {
         setSelectedPlanetaryFeature(PlanetaryFeature.BEACH);
         setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
         setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SUCCULENT);
         setSelectedPlanetaryFeature(PlanetaryFeature.DEEP_COLD_OCEAN);
     }
 }

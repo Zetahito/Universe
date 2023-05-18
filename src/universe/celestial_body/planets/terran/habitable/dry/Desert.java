@@ -24,7 +24,7 @@ public class Desert extends Dry {
         setHabitability(75);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.OASIS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.DUNES);
+        setSelectedPlanetaryFeature(PlanetaryFeature.DUNE);
         setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
         setSelectedPlanetaryFeature(PlanetaryFeature.ROCK_DESERT);
     }

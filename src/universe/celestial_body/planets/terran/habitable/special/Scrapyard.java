@@ -25,5 +25,6 @@ public class Scrapyard extends Special {
         setHabitability(20);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.JUNKYARD);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RADIOACTIVE_DUMP);
     }
 }

@@ -25,7 +25,7 @@ public class Megaflora extends Wet {
 
         setSelectedPlanetaryFeature(PlanetaryFeature.LAKE);
         setSelectedPlanetaryFeature(PlanetaryFeature.PLAIN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.BUSHES);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
         setSelectedPlanetaryFeature(PlanetaryFeature.MEADOW);
         setSelectedPlanetaryFeature(PlanetaryFeature.MOTHER_TREE);
         setSelectedPlanetaryFeature(PlanetaryFeature.MIXED_FOREST);

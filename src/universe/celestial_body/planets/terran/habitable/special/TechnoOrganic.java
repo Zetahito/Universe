@@ -26,9 +26,10 @@ public class TechnoOrganic extends Special {
 
         setHabitability(100);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.SYNTHETIC_TREE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SYNTHETIC_GRASS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.SYNTHETIC_PLANT);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ARTIFICIAL_TREE);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ARTIFICIAL_GRASS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ARTIFICIAL_OCEAN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.ARTIFICIAL_PLANT);
         setSelectedPlanetaryFeature(PlanetaryFeature.IRRIGATION_SYSTEM);
     }
 }

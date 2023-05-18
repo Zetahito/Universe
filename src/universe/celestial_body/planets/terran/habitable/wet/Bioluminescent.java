@@ -34,6 +34,6 @@ public class Bioluminescent extends Wet {
         setSelectedPlanetaryFeature(PlanetaryFeature.BIOLUMINESCENT_BUSH);
         setSelectedPlanetaryFeature(PlanetaryFeature.BIOLUMINESCENT_GRASS);
         setSelectedPlanetaryFeature(PlanetaryFeature.BIOLUMINESCENT_FUNGUS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.BIOLUMINESCENT_FLOWER);
+        setSelectedPlanetaryFeature(PlanetaryFeature.BIOLUMINESCENT_PLANT);
     }
 }

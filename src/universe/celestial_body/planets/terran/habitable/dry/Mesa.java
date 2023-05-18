@@ -25,7 +25,7 @@ public class Mesa extends Dry {
         setHabitability(65);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.MESA);
-        setSelectedPlanetaryFeature(PlanetaryFeature.KANYON);
+        setSelectedPlanetaryFeature(PlanetaryFeature.CANYON);
         setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
         setSelectedPlanetaryFeature(PlanetaryFeature.LONG_RIVER);

@@ -22,7 +22,7 @@ public class ToxicWasteland extends Special {
 
         setHabitability(0);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.DUMP);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RADIOACTIVE_DUMP);
         setSelectedPlanetaryFeature(PlanetaryFeature.TOXIC_LAKE);
         setSelectedPlanetaryFeature(PlanetaryFeature.TOXIC_RIVER);
         setSelectedPlanetaryFeature(PlanetaryFeature.INDUSTRIAL_WASTELAND);

@@ -23,6 +23,5 @@ public class Hycean extends Special {
         setHabitability(10);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.GLOBAL_OCEAN);
-        setSelectedPlanetaryFeature(PlanetaryFeature.DEEP_DWELLER);
     }
 }

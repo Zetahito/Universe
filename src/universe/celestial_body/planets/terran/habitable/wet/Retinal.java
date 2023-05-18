@@ -27,7 +27,7 @@ public class Retinal extends Wet {
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
         setSelectedPlanetaryFeature(PlanetaryFeature.OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLANDS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.RETINAL_GRASS);
         setSelectedPlanetaryFeature(PlanetaryFeature.RETINAL_FOREST);
         setSelectedPlanetaryFeature(PlanetaryFeature.CRAGGY_MOUNTAIN);

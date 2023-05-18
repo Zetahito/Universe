@@ -27,7 +27,7 @@ public class Prairie extends Dry {
         setSelectedPlanetaryFeature(PlanetaryFeature.RAVINE);
         setSelectedPlanetaryFeature(PlanetaryFeature.STEPPES);
         setSelectedPlanetaryFeature(PlanetaryFeature.PRAIRIE);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLANDS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
         setSelectedPlanetaryFeature(PlanetaryFeature.LONG_RIVER);
         setSelectedPlanetaryFeature(PlanetaryFeature.HUGE_MOUNTAINS);

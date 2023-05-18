@@ -23,7 +23,7 @@ public class Dune extends Dry {
 
         setHabitability(55);
 
-        setSelectedPlanetaryFeature(PlanetaryFeature.DUNES);
+        setSelectedPlanetaryFeature(PlanetaryFeature.DUNE);
         setSelectedPlanetaryFeature(PlanetaryFeature.OASIS);
         setSelectedPlanetaryFeature(PlanetaryFeature.SAND_DESERT);
         setSelectedPlanetaryFeature(PlanetaryFeature.MOUNTAIN_SPRING);

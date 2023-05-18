@@ -34,7 +34,6 @@ public class Badlands extends Dry {
         setSelectedPlanetaryFeature(PlanetaryFeature.CANYON);
         setSelectedPlanetaryFeature(PlanetaryFeature.SHRUBS);
         setSelectedPlanetaryFeature(PlanetaryFeature.BADLANDS);
-        setSelectedPlanetaryFeature(PlanetaryFeature.PINNACLE);
         setSelectedPlanetaryFeature(PlanetaryFeature.HARDY_GRASS);
         setSelectedPlanetaryFeature(PlanetaryFeature.CLAY_RICH_SOIL);
         setSelectedPlanetaryFeature(PlanetaryFeature.SEDIMENTARY_ROCKS);

@@ -25,6 +25,7 @@ public class Bog extends Frozen {
         setHabitability(70);
 
         setSelectedPlanetaryFeature(PlanetaryFeature.BOG);
+        setSelectedPlanetaryFeature(PlanetaryFeature.SWAMP);
         setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
         setSelectedPlanetaryFeature(PlanetaryFeature.SNOW_FOREST);
 

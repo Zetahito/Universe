@@ -28,6 +28,6 @@ public class Archive extends Special {
         setSelectedPlanetaryFeature(PlanetaryFeature.ARTIFICIAL_OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.ARTIFICIAL_GRASS);
         setSelectedPlanetaryFeature(PlanetaryFeature.FLOATING_HEAT_SINK);
-        setSelectedPlanetaryFeature(PlanetaryFeature.READ_ONLY_MEMORY_MOUNTAIN);
+        setSelectedPlanetaryFeature(PlanetaryFeature.RANDOM_ACCESS_MEMORY_MOUNTAIN);
     }
 }

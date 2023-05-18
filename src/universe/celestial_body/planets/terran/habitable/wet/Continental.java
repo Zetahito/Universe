@@ -28,7 +28,7 @@ public class Continental extends Wet {
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVER);
         setSelectedPlanetaryFeature(PlanetaryFeature.ISLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLANDS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
         setSelectedPlanetaryFeature(PlanetaryFeature.COLD_OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.LONG_RIVER);

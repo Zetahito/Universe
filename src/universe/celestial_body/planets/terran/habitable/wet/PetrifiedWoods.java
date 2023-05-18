@@ -29,7 +29,7 @@ public class PetrifiedWoods extends Wet {
         setSelectedPlanetaryFeature(PlanetaryFeature.OCEAN);
         setSelectedPlanetaryFeature(PlanetaryFeature.ISLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLANDS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.RIVERBED);
         setSelectedPlanetaryFeature(PlanetaryFeature.LONG_RIVER);
         setSelectedPlanetaryFeature(PlanetaryFeature.COLD_OCEAN);

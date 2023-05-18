@@ -26,7 +26,7 @@ public class Basalt extends Frozen {
         setSelectedPlanetaryFeature(PlanetaryFeature.LICHEN);
         setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
         setSelectedPlanetaryFeature(PlanetaryFeature.PLATEAU);
-        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLANDS);
+        setSelectedPlanetaryFeature(PlanetaryFeature.LOWLAND);
         setSelectedPlanetaryFeature(PlanetaryFeature.BASALT_MOUNTAIN);
         setSelectedPlanetaryFeature(PlanetaryFeature.EXTINCT_VOLCANO);
     }
