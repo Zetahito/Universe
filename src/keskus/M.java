@@ -5,7 +5,7 @@ import universe.celestial_body.galaxies.Spiral;
 import universe.celestial_body.planets.Planet;
 import universe.celestial_body.planets.terran.habitable.special.Ecumenopolis;
 import universe.celestial_body.stars.Star;
-import universe.celestial_body.stars.TypeG;
+import universe.celestial_body.stars.regular.TypeG;
 
 public class M {
     public static void main(String[] args) {

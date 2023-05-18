@@ -1,6 +1,8 @@
 package universe.celestial_body.stars;
 
 import universe.celestial_body.CelestialBody;
+import universe.celestial_body.stars.compact.*;
+import universe.celestial_body.stars.regular.*;
 
 /**
  * <h1>Hvězda</h1>
